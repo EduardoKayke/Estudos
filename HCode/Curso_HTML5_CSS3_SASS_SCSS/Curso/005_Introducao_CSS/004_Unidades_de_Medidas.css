@@ -1,0 +1,27 @@
+/*
+Unidades de medida
+Existem dois tipos de unidades de medidda: Abolutas e Relativas.
+
+Lenght = comprimento (2px, 4em, 8cm...)
+
+Absolutas:
+Centímetros (cm)
+Milímetros (mm)
+Polegadas (in)
+Pixels (px)
+Pontos (pt)
+Paicas (pc)
+
+Relativas:
+Porcentagem (%)
+M (em) 
+Root M (rem)
+Unidade de Caractere (ch)
+X (ex)
+Largura da Janela de Exibição (vw)
+Altura da Janela de Exibição (vh)
+Janela de Exibição Mínima (vmin)
+Janela de Exibição Máxima (vmax)
+Fração Restante (fr)
+
+*/

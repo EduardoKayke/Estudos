@@ -1,0 +1,92 @@
+/*
+Box Model - Modelo de Caixa
+Todos os elementos HTML, podem ser considerados como caixas.
+
+Margen, borda, preenchimento e o conteúdo.
+
+:---------------Margem--------------------:
+: :-------------Borda-------------------: :
+: : :--------Preenchimento------------: : :
+: : :            Conteúdo             : : :
+: : :---------------------------------: : :
+: :-------------------------------------: :
+:-----------------------------------------:
+
+Conteúdo = Tag do html
+Padding = Preenchimento interno
+Borda = Contorno
+Margin = Espaçamento externo que separa um elemento dos outros
+
+Exemplo de medida em ação;
+Largura do Conteúdo -Largura 50 -Altura 10
+Preenchimento - 2
+Borda - 1
+Margem - 5
+*/
+
+/*Padrão dos navegadores, caso você não especifique.*/
+/*content-box = O meu conteúdo é quem define o tamanho da minha caixa*/
+* {
+    box-sizing: content-box;
+}
+
+.seletor {
+    width: 50px;
+    height: 10px;
+    padding: 2px;
+    border-width: 1px;
+    margin: 5px;
+}
+/* Antes tinhamos que somar para recalcular os valores a mais
+que ficam entre a margem, borda e preenchimento*/
+
+/* Agora usamos o border-box para isso, todos os elementos 
+vão respeitar essa forma. Agora é o conteúdo que diminui 
+automaticamente, sem ter que ficar fazendo conta.*/
+
+* {
+    box-sizing: border-box;
+}
+
+.seletor {
+    width: 50px;
+    height: 10px;
+    padding: 2px;
+    border-width: 1px;
+    margin: 5px;
+    border: 3px solid red;
+}
+
+/*
+Ordem: Top - Right - Bottom - Left
+Sentido horário.
+*/
+
+/*
+Abreviação de valores
+*/
+
+* {
+    margin: 0; /*Será aplicado em todos os 4 lados*/
+    margin: 2px 4px; /*Aplicado top, bottom e right, left*/
+    margin: 2px 4px 2px 4px; /*Manualmente*/
+}
+
+/*Para especificar apenas um lado use. Temos para margin,
+border, padding*/
+* {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}

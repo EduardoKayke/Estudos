@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event: mouseover</title>
+    <style>
+        div {
+            width: 50vw;
+            height: 50vw;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    
+    <div onmouseover="debug(event)"></div>
+    
+    <script>
+        function debug(e) {
+            console.log('Evento: ' + e.type);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+/* Seletor Universal - Seleciona todos os elementos.*/
+* {
+    background: black;
+}
+
+/* Seletor por tipo - Uma tag.*/
+body {
+    background: black;
+}
+
+/* Seletor por classe.*/
+.fundo-preto {
+    background: black;
+}
+
+/* Seletor por ID. Atributo único por html.*/
+#nome {
+    background: black;
+}
+
+/* Seletor por atributo. Procura por tags que tenham o atributo. Aqui no exemplo serio o text*/
+[type="text"] {
+    background: black;
+}
+
+/* Pseudo Seletores. Ações e interaçõs, no caso do hover, é quando passa o mouse sobre algum elemento.*/
+:hover{
+    background: black;
+}
+

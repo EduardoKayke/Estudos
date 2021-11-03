@@ -1,0 +1,42 @@
+/*
+max-width
+
+Define a altura mínima do elemento. Se o conteúdo for maior que a largura
+máxima, ele mudará automaticamente a altura do elemento. Se o conteúdo for 
+menor que a largura máxima, a propriedade não terá efeito.
+
+
+max-width - VALORES
+
+Valores Possíveis - none, length, max-content, min-content, fit-content(length),
+unset, initial, inherit
+Valor Padrão - none
+Valor Herdado - não
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 20vh;
+    box-shadow: 0 0 10px rgba(0,0,0, .2);
+}
+
+.item {    
+    max-width: 700px;
+    height: 10vh;
+    background-color: #4cd13780
+}
+
+/*
+A ideia do mínimo e do máximo é estabelecer os limites.
+
+<body>
+    <div class="container">
+        <div class="item"></div>
+    </div>
+</body>
+*/

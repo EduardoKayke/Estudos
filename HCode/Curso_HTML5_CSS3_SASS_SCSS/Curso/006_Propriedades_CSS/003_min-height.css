@@ -1,0 +1,30 @@
+/*
+Height
+
+Define a altura mínima de um elemento. Se o conteúdo for menor que a altura
+mínima, a altura mínima será aplicada. Se o conteúdo for maior que a altura
+mínima, a propriedade será ignorada.
+
+
+min-height - VALORES
+
+Valores Possíveis - none, lenth, max-content, min-content, fit-content(length),
+unset, initial, inherit
+Valor Padrão - auto
+Valor Herdado - não
+*/
+
+div {
+    background-color: red;
+    width: 10%;
+    min-height: 250px;
+    height: 50vh;
+}
+
+/*
+A ideia do mínimo e do máximo é estabelecer os limites.
+
+<body>
+    <div></div>
+</body>
+*/

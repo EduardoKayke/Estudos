@@ -1,0 +1,32 @@
+/*
+border-bottom-color - VALORES
+
+Esta propriedade CSS define a cor da borda inferior de um elemento.
+
+Valores Possíveis - color, transparent, initial, inherit
+Valor Padrão - A cor atual do texto do elemento
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    color: red;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: #e1b12c;
+}
+
+/*
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam corporis vel perspiciatis error odio beatae provident obcaecati, aut quae praesentium pariatur, eos aliquam dolorum voluptates, quisquam adipisci nemo asperiores magnam!
+    </p>
+</body>
+*/

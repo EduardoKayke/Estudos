@@ -1,0 +1,28 @@
+/*
+Combinador Descendente
+
+form input {
+    color: blue;
+}
+------------------------------------
+
+Combinador Filho Direto
+
+form > input {
+    color: blue;
+}
+------------------------------------
+
+Combinador Irmão Adjacente
+
+form + div {
+    color: blue;
+}
+------------------------------------
+
+Combinador Irmão Geral
+
+form ~ div {
+    color: blue;
+}
+*/

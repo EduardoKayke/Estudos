@@ -1,0 +1,32 @@
+/* 
+Cores por nome - padrão css.
+White, Black, Red, Green, Blue.
+
+Os navegadores modernos suportam no total 140 cores por nome.
+*/
+
+cores {
+    background: rgb(red, green, blue);
+}
+
+/* Alpha = 0.0 até 1.0 em nível de transparência*/
+cores2 {
+    background: rgba(red, green, blue, alpha);
+    background: rgba(red, green, blue, 0.5);
+}
+
+/* Matiz, Saturação e Brilho*/
+cores3 {
+    background: hsl(hue, saturation, lightness);
+    background: hsl(0, 100%, 100%);
+    background: hsl( 0,  0%, 0%);
+    background: hsl( 0,  100%, 50%);
+    background: hsl( 120, 100%, 50%);
+    background: hsl( 240, 100%, 50%);    
+}
+
+/* Alpha = 0.0 até 1.0 em nível de transparência*/
+cores4 {
+    background: hsla(hue, saturation, lightness, 0.5);
+}
+

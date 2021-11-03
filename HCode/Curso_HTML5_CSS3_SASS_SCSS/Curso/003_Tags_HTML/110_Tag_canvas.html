@@ -1,0 +1,50 @@
+<!-- <canvas></canvas>
+
+    SOBRE A TAG.
+    Tag usada para definir um quadro de desenhos gráficos 2D ou 3D.
+    Para desenhar é necessário usar JavaScript.
+
+
+    ATRIBUTOS
+    Todos atributos globais.
+
+    height - Define a altura do seu quadro.
+    height - Número
+
+    width - Define a largura do seu quadro.
+    width - Número
+
+    ESTILOS CSS PADRÃO
+
+    canvas {
+        height: 150px;
+        width: 300px;
+    }
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas</title>
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <canvas id="quadro"></canvas>
+
+    <script>
+        const quadro = document.querySelector('#quadro');
+        const contexto = quadro.getContext('2d');
+
+        contexto.fillStyle = '#ff0000';
+        contexto.fillRect(0, 0, 100 ,100);
+    </script>
+</body>
+</html>

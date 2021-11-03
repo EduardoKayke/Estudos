@@ -1,0 +1,30 @@
+/*
+margin-bottom - VALORES
+
+Valores Possíveis - length, auto, initial, inherit
+Valor Padrão - 0
+Valor Herdado - não
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.bloco {
+    width: 20vw;
+    height: 50vh;
+    background-color: #487ee0;
+    margin-bottom: 10%;
+}
+
+/*
+<body>
+    <div class="bloco"></div>
+    <div class="bloco"></div>
+</body>
+*/

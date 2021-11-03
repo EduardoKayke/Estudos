@@ -1,0 +1,33 @@
+/*
+Height
+
+Define a altura dos elementos. O que não inclui as margens, bordas e
+espaçamento. Permite herança explicita, uma vez definida a altura do elemento
+pai, é possível para o elemento filho.
+
+OBS: As propriedades max-height e min-height quando presentes, sobrescrevem a 
+propriedade height.
+
+
+height - VALORES
+
+Valores Possíveis - auto, lenth, initial, inherit
+Valor Padrão - auto
+Valor Herdado - não
+*/
+
+div {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+/*
+Por não ter herança, temos que tomar cuidado para que ela esteja onde deve
+estar.
+
+<body>
+    <div></div>
+</body>
+
+*/

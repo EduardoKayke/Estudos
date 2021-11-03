@@ -1,0 +1,31 @@
+/*
+Height
+
+Define a altura dos elementos. Se o conteúdo for maior que a altura máxima, ele
+irá gerar um overflow.
+
+max-height - VALORES
+
+Valores Possíveis - none, lenth, max-content, min-content, fit-content(length),
+unset, initial, inherit
+Valor Padrão - none
+Valor Herdado - não
+*/
+
+div {
+    max-height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+/*
+Por não ter herança, temos que tomar cuidado para que ela esteja onde deve
+estar. Por isso adicionamos o texto, já que não temos referencia ao usar o 
+max-height. A texto estourou, pois a altura máxima esta em 200px.
+
+<body>
+    <div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellat vel nisi libero. Esse harum eos minus doloribus, accusamus velit quis voluptate recusandae iste nam. Repellendus consequatur quidem vitae distinctio!
+    </div>
+</body>
+*/

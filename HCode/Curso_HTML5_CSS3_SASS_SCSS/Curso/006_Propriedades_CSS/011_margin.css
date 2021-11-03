@@ -1,0 +1,33 @@
+/*
+margin - VALORES
+
+Esta propriedade CSS define o espaço em torno do elemento, fora de 
+qualquer borda definida.
+
+Esta propriedade é uma forma abreviada das propriedades: margin-top,
+margin-right, margin-bottom, margin-left.
+
+Valores Possíveis - length, auto, initial, inherit
+Valor Padrão - 0
+Valor Herdado - não
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bloco {
+    width: 20vw;
+    height: 20vh;
+    background-color: #487eb0;
+    margin: 2vw auto;
+}
+
+/*
+<body>
+    <div class="bloco"></div>
+    <div class="bloco"></div>
+    <div class="bloco"></div>
+</body>
+*/

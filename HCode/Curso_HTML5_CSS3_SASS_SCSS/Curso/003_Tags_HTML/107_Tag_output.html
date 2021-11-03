@@ -1,0 +1,46 @@
+<!-- <output></output>
+
+    SOBRE A TAG.
+    Tag usada para mostrar o resultado de um cálculo.
+
+
+    ATRIBUTOS
+    Todos atributos globais.
+
+    for - Define a relação entre o resultado e os elementos usados para o 
+    cálculo.
+    for - ID do elemento
+
+    form - Define qual formulário que esse campo pertence.
+    form - ID do formulário
+
+    name - Define o nome do elemento.
+    name - Texto
+
+    ESTILOS CSS PADRÃO
+
+    output {
+        display: inline;
+    }
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>output</title>
+</head>
+<body>
+
+    <form oninput="c.value = parseInt(a.value) + parseInt(b.value)">
+        <input type="range" id="a" value="0" min="0" max="10">
+        +
+        <input type="number" name="" id="b" value="0">
+        =
+        <output name="c" for="a b">0</output>
+    </form>
+
+</body>
+</html>

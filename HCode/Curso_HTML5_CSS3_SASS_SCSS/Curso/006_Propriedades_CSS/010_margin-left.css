@@ -1,0 +1,38 @@
+/*
+margin-left - VALORES
+
+Valores Possíveis - length, auto, initial, inherit
+Valor Padrão - 0
+Valor Herdado - não
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    display:flex;
+    height: 100vh;
+}
+
+.bloco {
+    width: 20vw;
+    height: 20vw;
+    background-color: #487ee0;
+}
+
+.bloco:first-child {
+    /* margin-left: 0; */
+    /* margin-left: none; */
+    /* margin-left: initial; */
+}
+
+.bloco + .bloco {
+    margin-left: 2vh;
+} /* Adiciona ao próximo irmão. */
+
+/*
+<body>
+    <div class="bloco"></div>
+    <div class="bloco"></div>
+    <div class="bloco"></div>
+</body>
+*/

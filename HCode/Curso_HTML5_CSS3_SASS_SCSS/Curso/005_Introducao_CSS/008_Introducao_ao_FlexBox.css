@@ -1,0 +1,13 @@
+/* 
+
+Flexbox
+
+Flexible Box Module, ou Múdulo de caixa Flexível, mais conhecido por "Flexbox" é um método capaz de organizar os elementos de uma interface de modo unidimensional.
+
+É possível definir a organização dos elementos como linha ou coluna e usar recursos para alinhar e distribuir após isso.
+
+
+Eixos do flexbox.
+
+Ao definir a dimensão (linha ou coluna) por meio da propriedade flex-direction, este eixo será tratado como o principal e o outro como eixo transversal.
+*/

@@ -1,0 +1,32 @@
+/*
+margin-top
+
+Esta propriedade CSS define o espaço acima do elemento, fora de qualquer
+borda definida.
+
+
+margin-top - VALORES
+
+Valores Possíveis - length, auto, initial, inherit
+Valor Padrão - 0
+Valor Herdado - não
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bloco {
+    width: 50vw;
+    height: 70vh;
+    margin-top: 5%;
+    background-color: #487ee0;
+    display: inline-block;
+}
+
+/*
+<body>
+    <div class="bloco"></div>
+</body>
+*/

@@ -1,0 +1,40 @@
+/*
+padding-bottom - VALORES
+
+Define a distância entre a borda de baixo e o conteúdo do elemento.
+
+Valores Possíveis - length, initial, inherit
+Valor Padrão - 0
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bloco {
+    width: 50vw;
+    height: 500px;
+    background-color: #273c75;
+    padding-bottom: 200px;    
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+    background-color: #7f8fa6;
+}
+
+/*
+ <body>
+    <div class="bloco">
+        <div class="item">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam qui, sed quae necessitatibus eligendi maxime laboriosam vitae quos pariatur totam molestias accusantium soluta a, fuga cupiditate? Sequi modi maxime officiis?
+            </p>
+        </div>
+    </div>
+</body>
+*/

@@ -1,0 +1,11 @@
+/*
+Valores Globais - Os valores globais podem ser utilizados em todas as propriedades CSS a menos que tenha alguma regra específica como exceção.
+
+Initial - Este valor irá forçar a reinicialização do valor padrão da propriedade.
+
+Inherit - Este valor irá atribuir a herança explicita para a propriedade aplicada. Assim caso o elemento pai possua a mesma propriedade com algum valor este será replicado para o elemento em questão.
+
+Unset - Este valor desabilita a propriedade em questão.
+
+Revert - Este valor tem a mesma função do valor initial, porém é aplicado apenas ao navegador Safari.
+*/

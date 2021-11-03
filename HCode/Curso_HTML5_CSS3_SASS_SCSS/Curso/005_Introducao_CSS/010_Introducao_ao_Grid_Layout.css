@@ -1,0 +1,65 @@
+/*
+Layout em Grade
+
+A especificação CSS Grid Layout permite a criação de layout bidimensional,
+trabalhando com linhas e colunas, permitindo a criação de inúmeras
+variações de tipos de layout.
+
+Organizando elementos em linhas e colunas, com Grid Layout é possível criar
+layout semelhante ao que era feito com tabelas, porém diferentemente das
+tabelas, os elementos filhos podem se sobrepor a outros conteúdos, dando
+aos elementos HTML o poder de ser alocados em qualquer parte do layout.
+
+Assim como o Módulo FlexBox, o Módulo Grid Layout também irá trabalhar com um Container que funcionará como um wrapper ou embrulho dos elementos
+internos denominados grid items.
+
+
+Por que Grid?
+
+Quando trabalhamos com layout podemos combinar o uso de Grid com outras
+tecnologias, surge a questão. Por que que utilizar o Grid Layout? Os sites construídos com FlexBox têm flexibilidade unidimensional que permite que
+diferentes eleentos do site sejam redimensionados dependendo do tamanho da
+tela. No entanto, há mais no design de um site do que simplesmente
+posicionar os elementos de uma determinada maneira.
+
+Com Grid temos a liberdade de reproduzir um layout mais livremente de
+acordo com os conceitos que o Designer produziu, mantes esses conceitos,
+não era uma tarefa fácil, mesmo usando Flex Box, com Grid fica mais fácil
+criar layouts multidimencionais.
+
+
+Grid Container
+
+O elemento que receberá a propriedade display: grid é chamado de Grid
+Container e podemos dizer que será o elemento pai de todos os itens de 
+grade.
+
+
+Grid Lines
+
+Qualquer linha vertical ou horizontal de uma grade que faz as divisões
+entre linhas e colunas são Linhas de Grade ou Grid Lines.
+
+
+Grid Cells
+
+Cada espaço de uma grade é chamado de Célula de Grade ou Grid Cell, também conhecida como unidade da grade.
+
+
+Grid Track
+
+O espaço entre duas linhas adjacentes, horizontais ou verticais, são
+chamados de Faixa de Grade ou em inglês Grid Track.
+
+
+Grid Area
+
+O espaço total gerado por quatro linhas de grade, formando um grupo de
+células é chamado de Área de Grade ou Grid Area.
+
+
+Gutters
+
+Gutters são os espaços entre as linhas ou colunas da grade. Como que calhas
+podem fazer uma separação entre esses elementos da nossa grade.
+*/

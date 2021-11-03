@@ -1,0 +1,46 @@
+/*
+padding - VALORES
+
+Esta propriedade CSS define a distância da borda de um elemento até seu
+conteúdo. Esta propriedade é abreviação das seguintes propriedades; 
+padding-top, padding-right, padding-bottom, padding-left. Padding criará 
+espaço extra dentro de um elemento, enquanto a margem cria espaço extra ao 
+redor de um elemento.
+
+
+
+Valores Possíveis - length, initial, inherit
+Valor Padrão - 0
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bloco {
+    padding: 50px 5px 10px 20px;  /* Sentido horário sempre. */
+    width: 50vw;
+    height: 500px;
+    background-color: #273c75;
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+    background-color: #7f8fa6;
+}
+
+/*
+ <body>
+    <div class="bloco">
+        <div class="item">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam qui, sed quae necessitatibus eligendi maxime laboriosam vitae quos pariatur totam molestias accusantium soluta a, fuga cupiditate? Sequi modi maxime officiis?
+            </p>
+        </div>
+    </div>
+</body>
+*/

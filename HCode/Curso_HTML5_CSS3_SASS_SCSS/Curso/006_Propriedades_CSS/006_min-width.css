@@ -1,0 +1,43 @@
+/*
+min-width
+
+Define a altura mínima dos elementos. O que não inclui as margens, bordas
+e espaçamentos.
+
+
+min-width - VALORES
+
+Valores Possíveis - none, length, max-content, min-content, fit-content(length), unset, initial, inherit
+Valor Padrão - auto
+Valor Herdado - não
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #a09b9b;
+}
+
+.container {
+    width: 30%;
+    height: 20vh;
+    background-color: #dcdde1;
+}
+
+.item {
+    min-width: 100px;
+    height: 10vh;
+    background-color: #4cd13780;
+}
+
+/*
+A ideia do mínimo e do máximo é estabelecer os limites.
+
+<body>
+    <div class="container">
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt delectus commodi inventore voluptatibus adipisci at earum error optio dolor, accusamus, deleniti repudiandae eum nihil libero! Perferendis, ullam! Eos, perferendis ullam!
+        </div>
+    </div>
+</body>
+*/

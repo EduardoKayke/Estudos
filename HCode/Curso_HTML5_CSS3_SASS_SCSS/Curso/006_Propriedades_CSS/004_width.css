@@ -1,0 +1,180 @@
+/*
+Width
+
+Define a largura dos elementos. O que não inclui as margns, bordas e
+espaçamentos. 
+OBS: As propriedadesmax-width e min-width quando presentes, sobrescrevem a
+propriedade width.
+
+
+width - VALORES
+
+Valores Possíveis - auto, lenth, max-content, min-content, fit-content,
+unset, initial, inherit
+Valor Padrão - auto
+Valor Herdado - não
+*/
+
+/*
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    width: 100vw;
+    height: 100vh;
+}
+
+.fundo > div[class^=largura] {
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 2%;
+    height: 40px;
+}
+
+.largura-auto {
+    width: auto;
+    border: red;
+}
+
+.largura-vwvh {
+    width: 50vw;
+    border: #3f3f3f;
+}*/
+
+/*
+A ideia foi falar sobre o display block que vem ativo. Por isso buga o sistema.
+Ou seja, é sempre uma boa prática definir a largura e a altura dos elementos.
+
+<body>
+        <div class="fundo">
+            <div class="largura-auto">
+                AUTO
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Optio blanditiis quis qui minima cum quibusdam itaque eaque
+                reprehenderit tenetur architecto praesentium provident fugiat
+                sunt inventore harum, minus quasi consectetur a!
+            </div>
+            <div class="largura-vwvh">
+                VWVH
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Optio blanditiis quis qui minima cum quibusdam itaque fugiat
+                sunt inventore harum, minus quasi consectetur a!
+            </div>
+        </div>
+</body>
+
+---------------------------------------------------------------------
+*/
+
+/*Outro exemplo*/
+
+body {
+    margin: 50px;
+    padding: 0;
+}
+
+.fundo {
+    
+    height: 100vh;
+}
+
+.fundo > div[class^=largura] {
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 5%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.largura-auto {
+    width: auto;
+    border: #00598daa;
+}
+
+.largura-vwvh {
+    width: 50vw;
+    border: #008d44aa;
+}
+
+.largura-percent {
+    width: 50%;
+    border-color: #eb6767aa;
+}
+
+.largura-pixel {
+    width: 350px;
+    border-color: #c82aaeaa;
+}
+
+.largura-fit {
+    width: fit-content;
+    height: fit-content;
+    border-color: #c2f01caa;
+} /*fit-content se adequa ao conteúdo, mas somente no width.*/
+
+.largura-min {
+    width: min-content;
+    border-color: #2ac3e8aa;
+}
+
+.largura-max {
+    width: max-content;
+    border-color: #7c2ac8aa;
+}
+
+.largura-revert {
+    width: revert;
+    border-color: #c82a2aaa;
+}
+
+.largura-unset {
+    width: unset;
+    border-color: #57c82aaa;
+} /*Usado para desligar*/
+
+/* A ideia aqui foi falar sobre a diferença entre todos os tipos de
+medição e organização.
+
+<body>
+    <div class="fundo">
+        <div class="largura-auto">
+            AUTO
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </div>
+        <div class="largura-vwvh">
+            VWVH
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </div>
+        <div class="largura-percent">
+            PERCENT
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </div>
+        <div class="largura-pixel">
+            PIXEL
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </div>
+        <div class="largura-fit">
+            FIT
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At ratione beatae magnam est aut libero maxime quisquam ea, ut aliquid corrupti officia molestias tenetur, esse illum quas nobis a eaque?
+        </div>
+        <div class="largura-min">
+            MIN
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </div>
+        <div class="largura-max">
+            MAX
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </div>
+        <div class="largura-revert">
+            REVERT
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </div>
+        <div class="largura-unset">
+            UNSET
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </div>
+    </div>
+</body>
+*/

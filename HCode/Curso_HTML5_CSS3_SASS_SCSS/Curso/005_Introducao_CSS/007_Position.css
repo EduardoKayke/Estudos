@@ -1,0 +1,14 @@
+/*
+Por padrão todos os elementos são posicionados estaticamente.
+Static, fixed, absolute, relative e sticky.
+
+Static, não e afetado pelas propriedades de deslocamento 
+top, right, bottom e left.
+
+Fixed, não será afetado nem pelo scroll da página Ficara fixo na tela.
+
+Absolute, faz com que o elemento fique posicionado fixamente
+em relação ao ancestral(tag pai por exemplo) posicionado mais próximo.
+
+Sticky, esta posição faz com que o elemento se comporte como relative e fixed em determinados momentos.
+*/

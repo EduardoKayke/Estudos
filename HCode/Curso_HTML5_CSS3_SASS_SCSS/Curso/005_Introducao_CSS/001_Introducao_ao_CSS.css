@@ -1,0 +1,15 @@
+/* CSS - Cascading Style Sheets*/
+
+header, section, footer {
+    background: black;
+}
+
+/*
+Sintaxe 
+header, section, footer = Grupo de seletores.
+background: black; = Bloco de declaração.
+blackgroud = Propriedade de declaração.
+( : ) = separador.
+black = Valor da declaração.
+( ; ) = Fim da declaração.
+*/

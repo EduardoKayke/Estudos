@@ -1,0 +1,52 @@
+/** {
+    box-sizing: border-box;
+}*/
+
+body {
+    background-color: #17181C;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 0;
+    height: 200vh;
+}
+
+.pulse {
+    background: none;
+    color: #ff760c;
+    border: 2px solid ;
+    padding: 7px 30px;
+    transition: 0.25s; /*Efeito pra ver quando muda de estado. */
+}
+
+.pulse1 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.pulse2 {
+    position: absolute;
+    top: 100px;
+    left: 207px;
+}
+
+.pulse3 {
+    position: absolute;
+    top: 100px;
+    left: 337px;
+}
+
+.pulse:hover, .pulse:focus {
+    color: #fff;
+    border-color: #ef8f6e;
+    box-shadow: 0 0 0 15px rgba(255,255,255,0);
+    animation: pulsar 1s;
+}
+
+/*Animação*/
+@keyframes pulsar {
+    50% {
+        box-shadow: 0 0 0 0 #ef8f6e;
+        top: 90px;
+    }
+}
