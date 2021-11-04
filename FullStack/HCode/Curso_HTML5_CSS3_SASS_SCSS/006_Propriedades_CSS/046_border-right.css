@@ -1,0 +1,30 @@
+/*
+border-right - VALORES
+
+Esta propriedade CSS define o estilo da borda superior de um elemento.
+Esta propriedade espera definir a largura, estilo e cor da borda.
+Esta propriedade é uma forma abreviada das propriedades: border-right-color,
+border-right-style, border-right-width.
+
+Valores Possíveis - border-right-color, border-right-style, 
+border-right-width.
+Valor Padrão - medium none color
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    border-right: indigo 20px groove;
+}
+
+/*
+<body>
+
+</body>
+*/
