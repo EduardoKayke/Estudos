@@ -1,0 +1,65 @@
+/*
+border-collapse - VALORES
+
+Esta propriedade CSS define se as bordas de uma tabela devem ser mescladas
+em uma única, o se devem se manter separadas.
+
+Valores Possíveis - collapse, separate, unset, initial, inherit.
+Valor Padrão - separate
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border: solid 1px #333;
+    width: 70vw;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: solid 1px #333;
+}
+
+/*
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>Cargo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Eduardo Kayke</td>
+                <td>eduardokaykedasilva@gmail.com</td>
+                <td>(xx) xxxxx-xxxx)</td>
+                <td>Sr. Developer</td>
+            </tr>
+            <tr>
+                <td>Ronaldo Silva</td>
+                <td>ronaldosilva@gmail.com</td>
+                <td>(xx) xxxxx-xxxx)</td>
+                <td>Jr. Developer</td>
+            </tr>
+            <tr>
+                <td>Fernanda Oliveira</td>
+                <td>fernandaoliveira@gmail.com</td>
+                <td>(xx) xxxxx-xxxx)</td>
+                <td>Jr. Game Dev</td>
+            </tr>
+        </tbody>         
+    </table>
+</body>
+*/
