@@ -1,0 +1,43 @@
+/*
+border-image-repeat - VALORES
+
+Esta propriedade CSS define se a imagem usada como borda em um elemento
+será repetida para contornar todo o elemento uniformemente, ou então se 
+deve ser esticada para que possa circundá-lo.
+
+Valores Possíveis - stretch, repeat, round, space, initial, inherit
+Valor Padrão - stretch
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    background-color: #fbc531;
+    border: 1px solid transparent;
+    border-image-source: url(img/border-image-source.png);
+    border-image-width: 30px;
+    border-image-slice: 30%;
+    border-image-outset: 50px;
+    border-image-repeat: repeat;
+}
+
+/*
+<body>    
+    <div></div>    
+</body>
+*/
