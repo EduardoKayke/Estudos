@@ -1,7 +1,7 @@
 /*
-border-bottom-width - VALORES
+border-left-width - VALORES
 
-Esta propriedade CSS define a largura da borda inferior do elemento.
+Esta propriedade CSS define a largura da borda esquerda do elemento.
 
 Valores Possíveis - medium, thin, thick, length, initial, inherit
 Valor Padrão - medium
@@ -18,9 +18,9 @@ body {
     width: 100vw;
     height: 100vh;
     color: red;
-    border-bottom-style: solid;
-    border-bottom-width: 30px;
-    border-bottom-color: #e1b12c;
+    border-left-style: solid;
+    border-left-width: 30px;
+    border-left-color: #e1b12c;
 }
 
 /*
