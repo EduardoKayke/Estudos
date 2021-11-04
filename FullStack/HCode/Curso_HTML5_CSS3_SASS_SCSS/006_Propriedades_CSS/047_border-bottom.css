@@ -1,0 +1,29 @@
+/*
+border-bottom - VALORES
+
+Esta propriedade CSS define o estilo da borda superior de um elemento.
+Esta propriedade espera definir a largura, estilo e cor da borda.
+Esta propriedade é uma forma abreviada das propriedades: border-bottom-color, border-bottom-style, border-bottom-width.
+
+Valores Possíveis - border-right-color, border-bottom-style, 
+border-bottom-width.
+Valor Padrão - medium none color
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    border-bottom: indigo 20px groove;
+}
+
+/*
+<body>
+
+</body>
+*/
