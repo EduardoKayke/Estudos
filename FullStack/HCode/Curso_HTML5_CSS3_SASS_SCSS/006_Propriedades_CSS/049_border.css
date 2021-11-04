@@ -1,0 +1,29 @@
+/*
+border - VALORES
+
+Esta propriedade CSS define o estilo da borda de um elemento.
+Esta propriedade espera definir a largura, estilo e cor da borda.
+Esta propriedade é uma forma abreviada das propriedades: border-color, border-style, border-width.
+
+Valores Possíveis - border-right-color, border-style, 
+border-width, initial, inherit, unset
+Valor Padrão - medium none color
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    border: indigo 20px double;
+}
+
+/*
+<body>
+
+</body>
+*/
