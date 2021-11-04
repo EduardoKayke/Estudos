@@ -1,0 +1,44 @@
+/*
+border-image-source - VALORES
+
+Esta propriedade CSS define a fonte ou caminho da imagem que deseja usar
+como borda em torno de um elemento.
+
+Valores Possíveis - none, image, initial, inherit
+Valor Padrão - 0
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    background-color: #fbc531;
+    border: 1px solid transparent;
+    border-image-source: url(img/border-image-source.png);
+    border-image-width: 50px;
+    border-image-slice: 30%;
+    border-image-outset: 50px;
+    border-image-repeat: round;
+}
+
+/*
+<body>
+    <div id="card">
+        <div></div>
+    </div>
+</body>
+*/
