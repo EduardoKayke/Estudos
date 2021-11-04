@@ -1,0 +1,29 @@
+/*
+box-sizing - VALORES
+
+Esta propriedade CSS define como a largura e altura de um elemento são
+calculadas. Se irão incluir o preenchimento e bordas ou não.
+
+Valores Possíveis - content-box, border-box, initial, inherit.
+Valor Padrão - content-box
+Valor Herdado - não
+*/
+
+div {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    padding: 100px;
+    background-color: aqua;
+}
+
+.box-sizing {
+    box-sizing: border-box;
+}
+
+/*
+<body>
+    <div>Eduardo</div>
+    <div class="box-sizing">Eduardo2</div>
+</body>
+*/
