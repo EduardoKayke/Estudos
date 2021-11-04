@@ -1,8 +1,8 @@
 /*
-border-top-style - VALORES
+border-right-style - VALORES
 
-Esta propriedade CSS define o estilo da linha da borda superior de um 
-elemento.
+Esta propriedade CSS define o estilo da linha da borda do lado direito de 
+um elemento.
 
 Valores Possíveis - none, hidden, dotted, dashed, solid, double, groove,
 ridge, inset, outset, initial, inherit
@@ -20,9 +20,9 @@ body {
     width: 100vw;
     height: 100vh;
     color: red;
-    border-top-style: solid;
-    border-top-width: 10px;
-    border-top-color: #e1b12c;
+    border-right-style: solid;
+    border-right-width: 10px;
+    border-right-color: #e1b12c;
 }
 
 /*
