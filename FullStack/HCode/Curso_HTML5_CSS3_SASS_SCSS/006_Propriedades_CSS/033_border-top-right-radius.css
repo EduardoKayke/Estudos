@@ -1,0 +1,51 @@
+/*
+border-top-right-radius - VALORES
+
+Esta propriedade CSS permite arredondar o canto superior direito da borda.
+Se for definido uma segunda unidade medida, o primeiro será para a borda
+superior e o segundo para a borda direita. Caso não informe o segundo 
+valor, o primeiro será copiado.
+
+Valores Possíveis - length(length), initial, inherit
+Valor Padrão - 0
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    width: 500px;
+    height: 500px;
+    background-color: #fbc531;
+    border-color: #e1b12c;
+    border-width: 20px;
+    border-style: dashed;
+    border-top-right-radius: 50%;
+    /* border-top-right-radius: 50%; Uma ou duas medidas.*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card > div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-top-right-radius: inherit;
+}
+
+/*
+<body>
+    <div id="card"></div>
+</body>
+*/
