@@ -33,8 +33,10 @@ body {
     border-top-right-radius: 50%;
     /* border-top-right-radius: 50%; Uma ou duas medidas.*/
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 20px 20px black;
 }
 
 #card > div {
@@ -42,6 +44,12 @@ body {
     height: 200px;
     background-color: red;
     border-top-right-radius: inherit;
+    box-shadow: 0 20px 20px black;
+}
+
+.texto {
+    font-size: 50px;
+    margin-top: 10%;
 }
 
 /*
