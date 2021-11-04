@@ -1,11 +1,11 @@
 /*
-border-image-source - VALORES
+border-image-width - VALORES
 
 Esta propriedade CSS define a fonte ou caminho da imagem que deseja usar
 como borda em torno de um elemento.
 
-Valores Possíveis - none, image, initial, inherit
-Valor Padrão - 0
+Valores Possíveis - number, %, auto, initial, inherit
+Valor Padrão - 1
 Valor Herdado - não
 */
 
@@ -29,7 +29,7 @@ div {
     background-color: #fbc531;
     border: 1px solid transparent;
     border-image-source: url(img/border-image-source.png);
-    border-image-width: 50px;
+    border-image-width: 30px;
     border-image-slice: 30%;
     border-image-outset: 50px;
     border-image-repeat: round;
