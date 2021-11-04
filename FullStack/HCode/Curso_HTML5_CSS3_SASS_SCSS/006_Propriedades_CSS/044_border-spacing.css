@@ -1,0 +1,65 @@
+/*
+border-spacing - VALORES
+
+Esta propriedade CSS define a distância que haverá entre as bordas
+(células) de uma tabela.
+
+Valores Possíveis - length, unset, initial, inherit.
+Valor Padrão - 2px
+Valor Herdado - sim
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border: solid 1px #333;
+    width: 70vw;
+    border-collapse: separate;
+}
+
+td, th {
+    border: solid 1px #333;
+}
+
+/*
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>Cargo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Eduardo Kayke</td>
+                <td>eduardokaykedasilva@gmail.com</td>
+                <td>(xx) xxxxx-xxxx)</td>
+                <td>Sr. Developer</td>
+            </tr>
+            <tr>
+                <td>Ronaldo Silva</td>
+                <td>ronaldosilva@gmail.com</td>
+                <td>(xx) xxxxx-xxxx)</td>
+                <td>Jr. Developer</td>
+            </tr>
+            <tr>
+                <td>Fernanda Oliveira</td>
+                <td>fernandaoliveira@gmail.com</td>
+                <td>(xx) xxxxx-xxxx)</td>
+                <td>Jr. Game Dev</td>
+            </tr>
+        </tbody>         
+    </table>
+</body>
+*/
