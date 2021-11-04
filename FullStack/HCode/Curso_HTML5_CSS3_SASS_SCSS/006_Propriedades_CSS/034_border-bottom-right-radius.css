@@ -1,9 +1,9 @@
 /*
-border-top-right-radius - VALORES
+border-bottom-right-radius - VALORES
 
-Esta propriedade CSS permite arredondar o canto superior direito da borda.
+Esta propriedade CSS permite arredondar o canto inferior direito da borda.
 Se for definido uma segunda unidade medida, o primeiro será para a borda
-superior e o segundo para a borda direita. Caso não informe o segundo 
+inferior e o segundo para a borda direita. Caso não informe o segundo 
 valor, o primeiro será copiado.
 
 Valores Possíveis - length(length), initial, inherit
@@ -31,7 +31,7 @@ body {
     border-color: #e1b12c;
     border-width: 20px;
     border-style: dashed;
-    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
     /* border-top-right-radius: 50%; Uma ou duas medidas.*/
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@ body {
     width: 200px;
     height: 200px;
     background-color: red;
-    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
     box-shadow: 0 20px 20px black;
 }
 
