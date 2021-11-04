@@ -1,0 +1,32 @@
+/*
+border-top-width - VALORES
+
+Esta propriedade CSS define a largura da borda superior do elemento.
+
+Valores Possíveis - medium, thin, thick, length, initial, inherit
+Valor Padrão - medium
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    color: red;
+    border-top-style: solid;
+    border-top-width: 30px;
+    border-top-color: #e1b12c;
+}
+
+/*
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam corporis vel perspiciatis error odio beatae provident obcaecati, aut quae praesentium pariatur, eos aliquam dolorum voluptates, quisquam adipisci nemo asperiores magnam!
+    </p>
+</body>
+*/
