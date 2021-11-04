@@ -1,0 +1,40 @@
+/*
+border-image - VALORES
+
+Esta propriedade CSS define uma imagem como a borda ao redor de um 
+elemento. Esta propriedade é uma forma abreviada das propriedades:
+border-image-source, border-image-width, border-image-slice, 
+border-image-outset, border-image-repeat.
+
+Valores Possíveis - source, slice/width/outset, repeat, initial, inherit.
+Valor Padrão - none 100% 1 0 stretch
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    background-color: #fbc531;
+    border: 1px solid transparent;
+    border-image: url(img/border-image-source.png) 100 / 50 / 0 round;
+}
+
+/*
+<body>    
+    <div></div>    
+</body>
+*/
