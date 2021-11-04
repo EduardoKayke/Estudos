@@ -1,0 +1,29 @@
+/*
+border-left - VALORES
+
+Esta propriedade CSS define o estilo da borda esquerda de um elemento.
+Esta propriedade espera definir a largura, estilo e cor da borda.
+Esta propriedade é uma forma abreviada das propriedades: border-left-color, border-left-style, border-left-width.
+
+Valores Possíveis - border-right-color, border-left-style, 
+border-left-width.
+Valor Padrão - medium none color
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    border-left: indigo 20px double;
+}
+
+/*
+<body>
+
+</body>
+*/
