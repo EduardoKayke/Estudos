@@ -1,0 +1,63 @@
+/*
+border-bottom-left-radius - VALORES
+
+Esta propriedade CSS permite arredondar o canto inferior esquerdo da borda.
+Se for definido uma segunda unidade medida, o primeiro será para a borda
+inferior e o segundo para a borda esquerda. Caso não informe o segundo 
+valor, o primeiro será copiado.
+
+Valores Possíveis - length(length), initial, inherit
+Valor Padrão - 0
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    margin-top: 3%;
+    width: 500px;
+    height: 500px;
+    background-color: #fbc531;
+    border-color: #e1b12c;
+    border-width: 20px;
+    border-style: dashed;
+    border-bottom-left-radius: 50%;
+    /* border-top-left-radius: 50%; Uma ou duas medidas.*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 20px 20px black;
+}
+
+#card > div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-bottom-left-radius: inherit;
+    box-shadow: 0 20px 20px black;
+}
+
+.texto {
+    font-size: 50px;
+    margin-top: 10%;
+}
+
+/*
+<body>
+    <div id="card">
+        <div></div>
+        <p class="texto">teste</p>
+    </div>
+</body>
+*/
