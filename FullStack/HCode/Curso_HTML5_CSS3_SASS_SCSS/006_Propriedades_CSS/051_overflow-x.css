@@ -1,0 +1,45 @@
+/*
+box-sizing - VALORES
+
+Esta propriedade CSS especifica se o conteúdo deve ser cortado, adicionado
+uma barra de rolagem ou exibir o conteúdo do estouro de um elemento de nível
+de bloco quando este estoura nas bordas laterais.
+
+Valores Possíveis - visible, hidden, scroll, auto, initial, inherit, unset.
+Valor Padrão - vsible
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 40px;
+    width: 800px;
+    height: 200px;
+    display: flex;
+    border: black 2px solid;
+    overflow-x: auto;
+}
+
+.item {
+    padding: 50px;
+    margin-right: 20px;
+    border: #968a81 5px outset;
+}
+
+/*
+<body>
+    <div>Eduardo</div>
+    <div class="box-sizing">Eduardo2</div>
+</body>
+*/
