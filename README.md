@@ -28,7 +28,7 @@ function Eduardo(Front End >= 1 year) {
     
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EduardoKayke&layout=compact&theme=tokyonight" alt="EduardoKayke" width="400" />
-  <img src="http://github-readme-streak-stats.herokuapp.com?user=EduardoKayke&theme=dracula" alt="EduardoKayke" width="410" />
+  <img src="http://github-readme-streak-stats.herokuapp.com?user=EduardoKayke&theme=dracula" alt="EduardoKayke" width="400" />
 </p>
 
 <p align="center">
