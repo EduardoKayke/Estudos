@@ -78,7 +78,7 @@ var idades = [5, 1, 8, 12, 44, 78]; // [ 1, 12, 44, 5, 78, 8 ]
 idades.sort();
 console.log(idades);
 
-// Para ordenar inteiros e floats devemos criar uma função pro .sort().
+// Para ordenar inteiros e floats devemos criar uma função para o .sort().
 precos.sort(function(a, b) {
      return a - b;
     });
@@ -97,5 +97,73 @@ idades[3] = 12;
 console.log(idades);
 
 // [ 1, 5, 8, 44, 78 ]
-idades.splice(3, 1); // A partir do índice 3 delete 1 elemento.
-console.log(idades);
+// idades.splice(3, 1); // A partir do índice 3 delete 1 elemento.
+// console.log(idades);
+
+// idades.splice(3, 0, 56, 89); // A partir do índice 3 não delete nenhum (0), mas adicione 56, 89.
+// console.log(idades); // [ 1,  5,  8, 56, 89, 12, 44, 78 ]
+
+idades.splice(3, 1, 23) // Delete o 12 e adicione o 23.
+console.log(idades); // [ 1, 5, 8, 23, 44, 78 ]
+
+for(var i = 0; i < idades.length; i++) {
+    // console.log(idades[i]);
+;}
+// Removendo elementos da última posição do array.
+// idades.pop();
+// console.log(idades);
+
+// var ret = idades.pop(); // Remove e retorna o último elemento de um array.
+// console.log(ret);
+// console.log(idades);
+
+// Removendo o primeiro elemento de um array.
+// console.log(idades);
+// idades.shift(); // Remove e retorna o último elemento de um array.
+// console.log(idades);
+
+// var retShift = idades.shift();
+// console.log(retShift);
+// console.log(idades);
+
+// Inserindo elementos no início de um array.
+// idades.unshift(99);
+// console.log(idades);
+
+// Retorna um novo array a partir do índice informado.
+// var novo = idades.slice(3);
+// console.log(novo);
+
+// var novo = idades.slice(1, 2); // A partir do índice 1, pegue até o índice 2 sem inclui-lo.
+// console.log(novo); // [ 1, 5, 8, 23, 44, 78 ] pegou [ 5 ]
+
+var pares = [2, 4, 6, 8, 10];
+var impares = [1, 3, 5, 7, 9];
+
+var rest = pares.concat(impares); // concatena os dois arrays
+// console.log(rest);
+
+rest = impares.concat(pares);
+// console.log(rest);
+
+rest.sort(function(a, b) {
+    return a - b;
+});
+// console.log(rest);
+
+// Array de array = matrizes. exemplo (4x4)
+
+var tabuleiro = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]];
+console.log(tabuleiro);
+
+/**
+ * 0: (4) [1, 2, 3, 4]
+ * 1: (4) [5, 6, 7, 8]
+ * 2: (4) [9, 10, 11, 12]
+ * 3: (4) [13, 14, 15, 16]
+ * length: 4
+ * 
+ */
+
+console.log(tabuleiro[0][0]); // Resultado 1.
+console.log(tabuleiro[2][2]); // Resultado 11.
