@@ -1,9 +1,9 @@
 /*
-overflow-x - VALORES
+overflow-y - VALORES
 
 Esta propriedade CSS especifica se o conteúdo deve ser cortado, adicionado
 uma barra de rolagem ou exibir o conteúdo do estouro de um elemento de nível
-de bloco quando este estoura nas bordas laterais.
+de bloco quando este estoura nas bordas do topo e rodapé.
 
 Valores Possíveis - visible, hidden, scroll, auto, initial, inherit, unset.
 Valor Padrão - vsible
@@ -27,8 +27,9 @@ body {
     width: 800px;
     height: 200px;
     display: flex;
+    flex-direction: column;
     border: black 2px solid;
-    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .item {
