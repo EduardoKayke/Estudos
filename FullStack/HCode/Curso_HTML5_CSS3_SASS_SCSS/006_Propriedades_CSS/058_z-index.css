@@ -1,0 +1,43 @@
+/*
+z-index - VALORES
+
+Esta propriedade CSS define a ordem de pilha de um elemento.
+O elemento com maior ordem de pilha está sempre na frente de 
+um elemento com uma ordem de pilha menor.
+
+Valores Possíveis - auto, number, initial, inherit, unset
+Valor Padrão - auto
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    width: 250px;
+    height: 250px;
+    background-color: #487eb0;
+    position: absolute;
+    z-index: 1;
+}
+
+.destaque {
+    width: 250px;
+    height: 250px;
+    background-color: #95a5a6;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    z-index: 0;
+}
+
+
+/*
+<body>
+    <div class="fundo"></div>
+    <div class="destaque"></div>
+</body>
+*/
