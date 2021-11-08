@@ -42,8 +42,12 @@ textarea {
 
 /*
 <body>
-    <div class="container">
-        ReprehenderitReprehenderitReprehenderitReprehenderitReprehenderit
+    <div class="content">
+        <p class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima eum temporibus obcaecati, sint ad ea perferendis ut culpa distinctio porro aperiam neque unde velit quas placeat sed, impedit mollitia est.</p>
+        <p class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima eum temporibus obcaecati, sint ad ea perferendis ut culpa distinctio porro aperiam neque unde velit quas placeat sed, impedit mollitia est.</p>
     </div>
+    <form>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </form>
 </body>
 */
