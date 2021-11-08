@@ -1,0 +1,49 @@
+/*
+justify-self - VALORES
+
+Esta propriedade CSS define o alinhamento do item no eixo primário dentro
+do contêiner flexível.
+
+Valores - auto, normal, first, last, start,end, stretch, center, flex-start,
+flex-end, self-start, self-end, left, right, baseline, first baseline,
+initial, inherit, unset.
+Valor Padrão - auto
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+div {
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+}
+
+div:nth-child(3) {
+    justify-self: start;
+}
+
+div:nth-child(1) {
+    justify-self: end;
+}
+
+/*
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+*/
