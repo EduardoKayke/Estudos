@@ -1,0 +1,49 @@
+/*
+align-itens - VALORES
+
+Esta propriedade CSS define o alinhamento dos elementos flexíveis filhos
+no eixo secundário.
+
+É o equivalente a definir a propriedade align-self em cada um dos elementos
+filhos.
+
+Um elemento filho pode possuir a propriedade align-self para substituir o 
+alinhamento definido no contêiner com esta propriedade.
+
+Valores - normal, stretch, center, start, end, flex-start, flex-end,
+self-start, self-end, baseline, first baseline, last baseline, safe center, 
+unsafe center, initial, inherit, unset
+Valor Padrão - normal
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-flex {
+    display: flex;
+    width: 100vw;
+    height: 100vh;    
+    align-items: baseline;
+}
+
+.container {
+    display: grid;
+    width: 100vw;
+    height: 100vh; 
+    background-color: yellow;
+    align-items: center;
+}
+
+.container > div {
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+}
+
+/*
+
+*/
