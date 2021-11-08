@@ -1,0 +1,39 @@
+/*
+overflow-block - VALORES
+
+Esta propriedade CSS irá determinar o que deve acontecer com o
+conteúdo de um elemento de bloco quando este estoura os 
+limites do bloco, pode ser oculto, gerar uma barra de rolagem,
+ou não ter nenhuma alteração. A propriedade overflow-block
+direciona para overflow-y ou overflow-x dependendo do modo de
+escrita do documento.
+
+Disponivel apenas no Firefox
+
+Valores Possíveis - visible, hidden, scroll, auto, initial, 
+inherit, unset
+Valor Padrão - auto
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: min-content;
+    border: black 2px solid;
+    overflow-block: auto;
+    max-width: 150px;
+}
+
+
+/*
+<body>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur in modi repellendus possimus! Alias modi voluptatum enim recusandae. Facilis molestiae animi vel aspernatur at ullam maxime. Reprehenderit unde nesciunt sed.
+    </div>
+</body>
+*/

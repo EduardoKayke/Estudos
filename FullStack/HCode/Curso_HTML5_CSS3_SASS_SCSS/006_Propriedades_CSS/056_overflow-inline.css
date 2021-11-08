@@ -1,0 +1,38 @@
+/*
+overflow-inline - VALORES
+
+Esta propriedade CSS irá determinar o que deve ser exibido
+quando o conteúdo estoura os limites de um elemento de linha
+onde foi definida e pode ser usada na condição de uma media
+query.
+
+Esta propriedade irá direcionar para as propriedades overflow-y ou overflow-x dependendo do modo de escrita do documento.
+
+Disponivel apenas no Firefox
+
+Valores Possíveis - visible, hidden, scroll, auto, initial, 
+inherit, unset
+Valor Padrão - auto
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 200px;
+    border: black 2px solid;
+    overflow-inline: auto;
+}
+
+
+/*
+<body>
+    <div class="container">
+        ReprehenderitReprehenderitReprehenderitReprehenderitReprehenderit
+    </div>
+</body>
+*/
