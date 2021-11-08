@@ -1,0 +1,52 @@
+/*
+overflow - VALORES
+
+Esta propriedade define o comportamento do conteúdo quando este estoura os
+limites definidos de altura e largura da caixa. Se não for definido o 
+segundo valor, o primeiro será copiado para o segundo eixo.
+Esta propriedade é uma forma abreviada das propriedades: overflow-x,
+overflow-y.
+
+Valores Possíveis - visible, hidden, scroll, auto, initial, inherit, unset.
+Valor Padrão - vsible
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 40px;
+    width: 500px;
+    height: 140px;
+    display: flex;
+    border: black 2px solid;
+    overflow: auto;
+}
+
+.item {
+    padding: 50px;
+    margin-right: 20px;
+    border: #968a81 5px outset;
+}
+
+/*
+<body>
+    <div class="container">
+        <div class="item">Curso Completo de HTML</div>
+        <div class="item">Curso Completo de CSS3</div>
+        <div class="item">Curso Completo de JavaScript</div>
+        <div class="item">Curso Completo de NODE</div>
+        <div class="item">Curso Completo de Angular9</div>
+    </div>
+</body>
+*/
