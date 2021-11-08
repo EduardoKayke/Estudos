@@ -1,0 +1,32 @@
+/*
+overflow - VALORES
+
+Esta propriedade CSS é aplicada a elementos de linha, adicionando uma 
+quebra de linha sempre que uma palavra for gerar um estouro na caixa.
+
+Valores Possíveis - normal, break-word, anywhere, initial, inherit, unset
+Valor Padrão - normal
+Valor Herdado - sim
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: min-content;
+    border: black 2px solid;
+    overflow-wrap: normal;
+    max-width: 150px;
+}
+
+
+/*
+<body>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur in modi repellendus possimus! Alias modi voluptatum enim recusandae. Facilis molestiae animi vel aspernatur at ullam maxime. Reprehenderit unde nesciunt sed.
+    </div>
+</body>
+*/
