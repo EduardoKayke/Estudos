@@ -1,0 +1,55 @@
+/*
+flex-flow - VALORES
+
+Esta propriedade CSS define o fluxo dos itens flexíveis.
+
+Esta propriedade é uma forma abreviada das propriedades::after
+flex-direction, flex-wrap
+
+Valores nowrap, wrap, wrap-reverse, initial, inherit, unset
+Valor Padrão - row nowrap
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 90vh;
+    flex-flow: column wrap;
+    box-shadow: 0 0 20px #3f3f3f;
+}
+.container > div {
+    width: 150px;
+    height: 150px;
+    border-width: .5px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > div:hover {
+    color: orange;
+    font-weight: bold;
+}
+
+/*
+<body>
+    <div class="container">
+        <div class="a">a</div>
+        <div class="b">b</div>
+        <div class="c">c</div>
+        <div class="d">d</div>
+        <div class="a">a</div>
+        <div class="b">b</div>
+        <div class="c">c</div>
+        <div class="d">d</div>
+    </div>
+</body>
+*/
