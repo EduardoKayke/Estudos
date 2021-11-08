@@ -11,7 +11,7 @@
  */    
     
 function Eduardo(Front End >= 1 year) {
-    const programmer = "Front-end and Game Developer";
+    const Programmer = "Front-end and Game Developer";
     
     if (Front End) {
         const Stack = `${HTML}, ${CSS}, ${JavaScript}`;
