@@ -1,0 +1,49 @@
+/*
+overflow-inline - VALORES
+
+Esta propriedade CSS determina se e como um elemento HTML que 
+possua essa propriedade poderá ser redimensionado pelo 
+usuário.
+
+Valores Possíveis - none, both, horizontal, vertical, inline,
+initial, inherit, unset
+Valor Padrão - none
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    width: 50vw;
+}
+
+.item {
+    resize: both;
+    overflow: auto;
+}
+
+p:nth-child(2) {
+    resize: inline;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/*
+<body>
+    <div class="container">
+        ReprehenderitReprehenderitReprehenderitReprehenderitReprehenderit
+    </div>
+</body>
+*/
