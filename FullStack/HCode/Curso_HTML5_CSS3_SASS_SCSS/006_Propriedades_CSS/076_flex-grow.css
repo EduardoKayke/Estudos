@@ -1,11 +1,12 @@
 /*
-flex-basis - VALORES
+flex-grow - VALORES
 
-Esta propriedade CSS define o comprimento inicial de um item flexível.
+Esta propriedade CSS define quanto o item crescerá em relação ao restante 
+dos itens flexíveis dentro do mesmo contêiner flex.
 
 Valores - length, auto, fill, max-content, min-content, fit-content, 
 content, initial, inherit, unset.
-Valor Padrão - auto
+Valor Padrão - 0
 Valor Herdado - não
 */
 
@@ -29,7 +30,6 @@ body {
     align-items: center;
     justify-content: center;
     box-shadow: 0px 0px 0px 10px rgba(100, 100, 100, 0.2);
-    flex-wrap: wrap;
     margin: 2% auto;
 }
 
@@ -40,20 +40,27 @@ body {
     align-items: center;
     justify-content: center;
     transition: all .2s ease-in-out;
-    flex-basis: 200px;
 }
 
 .container > div:hover {
-    flex-basis: 250px;
     border-color: blue;
+}
+
+.container > div.a {
+    flex-grow: 3;
+}
+
+.container > div.c {
+    flex-grow: 2;
 }
 
 /*
 <body>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div class="container">
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="c">C</div>
+        <div class="d">D</div>
+    </div>
 </body>
 */
