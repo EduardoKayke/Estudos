@@ -1,0 +1,45 @@
+/*
+justify-items - VALORES
+
+Esta propriedade CSS é usada em containers grid e alinham os itens de suas
+áreas de grade no eixo embutido.
+É o equivalente a definir a propriedade ustify-self em cada um dos elementos
+filhos.
+
+Valores - legacy, auto, normal, stretch, center, start, end, flex-start,
+fle-end, self-start, self-end, left, right, baseline, safe center, 
+insafe center, legacy right, legacy left, legacy center, initial, inherit,
+unset.
+Valor Padrão - normal
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    justify-items: center;
+}
+
+div {
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+}
+
+/*
+<body>
+    <div class="container"> 
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+    </div>
+</body>
+*/
