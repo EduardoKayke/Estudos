@@ -1,0 +1,41 @@
+/*
+outline-style - VALORES
+
+Esta propriedade CSS define o estilo da linha de contorno do elemento.
+
+Valores Possíveis -auto, dashed, dotted, double, groove, 
+hidden, inherit, initial, inset, none, outset, revert, ridge, 
+solid, unset
+Valor Padrão - none
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    background-color: mediumvioletred;
+    outline-style: double;
+    outline-width: 20px;
+    border: yellow 20px dashed;
+    outline-color: #fff;
+}
+
+/*
+<body>
+    <div></div>
+</body>
+*/
