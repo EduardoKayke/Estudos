@@ -1,0 +1,47 @@
+/*
+flex-direction - VALORES
+
+Valores Possíveis -row, row-reverse, column, column-reverse, initial, 
+inherit, unset
+Valor Padrão - row
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 90vh;
+    flex-direction: row;
+    box-shadow: 0 0 20px #3f3f3f;
+}
+.container > div {
+    width: 150px;
+    height: 150px;
+    border-width: .5px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > div:hover {
+    color: orange;
+    font-weight: bold;
+}
+
+/*
+<body>
+    <div class="container">
+        <div class="a">a</div>
+        <div class="b">b</div>
+        <div class="c">c</div>
+        <div class="d">d</div>
+    </div>
+</body>
+*/
