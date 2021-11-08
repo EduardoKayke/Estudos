@@ -1,0 +1,44 @@
+/*
+place-items - VALORES
+
+Esta propriedade CSS é uma abreviação das propriedades: align-items,
+justify-items
+
+Se o segundo valor não for informado, o primeiro valor será usado em ambos.
+
+Valores - legacy, auto, normal, stretch, center, start, end, flex-start,
+fle-end, self-start, self-end, left, right, baseline, safe center, 
+insafe center, legacy right, legacy left, legacy center, initial, inherit,
+unset.
+Valor Padrão - auto
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+div {
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+}
+
+/*
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+*/
