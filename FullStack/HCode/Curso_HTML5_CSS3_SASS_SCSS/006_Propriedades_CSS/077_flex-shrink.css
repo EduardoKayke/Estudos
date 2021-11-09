@@ -23,8 +23,8 @@ body {
 }
 
 .container {
-    width: 80%;
-    height: 90vh;
+    width: 15%;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,11 +34,14 @@ body {
 
 .container > div {
     height: 150px;
-    border: solid 1px;
+    border: solid .5px;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all .2s ease-in-out;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;
 }
 
 .container > div:hover {
@@ -46,11 +49,7 @@ body {
 }
 
 .container > div.a {
-    flex-grow: 3;
-}
-
-.container > div.c {
-    flex-grow: 2;
+    flex-shrink: 3;
 }
 
 /*
