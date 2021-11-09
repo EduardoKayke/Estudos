@@ -10,7 +10,7 @@
  *  Você pode me encontrar pelo Telegram, Linkedin e meu Site(Em construção). 
  */    
     
-function Eduardo(Front End >= 1 year) {
+function Eduardo(Front End <= 1 year) {
     const Programmer = "Front-end and Game Developer";
     
     if (Front End) {
