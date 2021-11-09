@@ -20,6 +20,71 @@ reutilizáveis e garantem compatibilidade com versões anteriores.
 Outros Pré-processadores CSS
 
 Cada pré-processador CSS tem sua própria sintaxe que é compilada em CSS 
-regular para que os navegadores possam renderizá-los no lado do cliente.
+regular para que os navegadores possam renderizá-los no lado do cliente. 
+Atualmente, os três pré-processadores CSS mais populares e estáveis são
+o Sass, LESS, SStylus e Styled Components, no entanto, existem muitos
+menores também. Todos os pré-processadores CSS fazem coisas semelhantes, mas
+de uma maneira diferente e com suas próprias sintaxes. Cada um deles possui
+alguns recursos avançados exclusivos e também seu próprio ecossistema: 
+ferramentas, frameworks, bibliotecas.
 
+*/
+
+// Linguagem
+// CSS
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+body header {
+    background-color: #fff;
+    color: black;
+    height: 64px;
+    padding: 8px;
+}
+
+body header a {
+    text-decoration: none;
+}
+
+// Linguagem
+// SCSS
+
+body {
+    margin: 0;
+    background-color: black;
+    header {
+        background-color: #fff;
+        color: black;
+        height: 64px;
+        padding: 8px;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+// Linguagem
+// SASS
+
+// body
+//     margin: 0;
+//     background-color: black;
+//     header
+//         background-color: #fff;
+//         color: black;
+//         height: 64px;
+//         padding: 8px;
+//         a
+//             text-decoration: none;
+
+/*
+Recursos
+
+https://sass.lang.com
+https://sass.lang.com/install
+https://sass.lang.com/guide
+https://sass.lang.com/documentation
 */
