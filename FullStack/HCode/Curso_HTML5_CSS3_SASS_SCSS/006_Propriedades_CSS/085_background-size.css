@@ -1,0 +1,37 @@
+/*
+background-image - VALORES
+
+Esta propriedade CSS define o tamanho de uma imagem de plano de fundo.
+
+Valores - auto, length, cover, contain, initial, inherit, unset.
+Valor Padrão - auto
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #5f5f5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 30vw;
+    height: 30vh;
+    background-image: url("img/eduardo-perfil.jpg");
+    background-size: cover;
+    
+}
+
+/*
+<body>
+    <div></div>
+</body>
+*/
