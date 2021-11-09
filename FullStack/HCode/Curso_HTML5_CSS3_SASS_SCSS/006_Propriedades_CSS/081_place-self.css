@@ -22,32 +22,47 @@ Valor Herdado - não
 
 body {
     background-color: #eee;
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    justify-content: flex-start;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 100vw;
 }
 
 body > div {
-    width: 100px;
-    height: 100px;
-    background-color: #ff000066;
-    border: red 1px solid;
-    transition-duration: 0.5s;
+    background-color: green;
+    border: black 2px solid;
+    width: 50px;
+    height: 50px;
+    place-self: center;
 }
 
-body:hover > div:nth-child(2) {
-    align-self: stretch;
-    height: inherit;
+body > div:nth-child(3) {
+    place-self: flex-end left;
+}
+
+body > div:nth-child(1) {
+    place-self: flex-end right;
+}
+
+body > div:nth-child(7) {
+    place-self: flex-start right;
+}
+
+body > div:nth-child(9) {
+    place-self: flex-start left;
 }
 
 
 /*
 <body>
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
 </body>
 */
