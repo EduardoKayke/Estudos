@@ -1,0 +1,65 @@
+/*
+flex-shrink - VALORES
+
+Esta propriedade CSS define como o item será reduzido em relação ao restante
+dos itens flexíveis do mesmo contêiner flex.
+
+Valores - number, initial, inherit, unset.
+Valor Padrão - 1
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    place-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 10px rgba(100, 100, 100, 0.2);
+    margin: 2% auto;
+}
+
+.container > div {
+    height: 150px;
+    border: solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease-in-out;
+}
+
+.container > div:hover {
+    border-color: blue;
+}
+
+.container > div.a {
+    flex-grow: 3;
+}
+
+.container > div.c {
+    flex-grow: 2;
+}
+
+/*
+<body>
+    <div class="container">
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="c">C</div>
+        <div class="d">D</div>
+    </div>
+</body>
+*/
