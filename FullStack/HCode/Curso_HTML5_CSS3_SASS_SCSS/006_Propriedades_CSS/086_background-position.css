@@ -1,0 +1,80 @@
+/*
+background-position - VALORES
+
+Esta propriedade CSS define a posição inicial de uma imagem de plano de 
+fundo.
+
+Valores - top, right, bottom, left, center, length, x%, y%, initial, 
+inherit, unset.
+Valor Padrão - 0% 0%
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 64px;
+    height: 64px;
+    border: #ccc 1px solid;
+    margin: 10px;
+    background-image: url("img/google_sprite.png");
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+div.icon-1 {
+    background-position: 0 calc(-69px * 1);
+}
+
+div.icon-1:hover {
+    background-position: 0 calc(-69px * 20);
+    box-shadow: 0 0 30px 10px red;
+}
+
+div.icon-2 {
+    background-position: 0 calc(-69px * 2);
+}
+
+div.icon-3 {
+    background-position: 0 calc(-69px * 3);
+}
+
+div.icon-4 {
+    background-position: 0 calc(-69px * 4);
+}
+
+div.icon-5 {
+    background-position: 0 calc(-69px * 5);
+}
+
+div.icon-6 {
+    background-position: 0 calc(-69px * 6);
+}
+
+div.icon-7 {
+    background-position: 0 calc(-69px * 7);
+}
+
+/*
+<body>
+    <div class="icon-1"></div>
+    <div class="icon-2"></div>
+    <div class="icon-3"></div>
+    <div class="icon-4"></div>
+    <div class="icon-5"></div>
+    <div class="icon-6"></div>
+    <div class="icon-7"></div>
+</body>
+*/
