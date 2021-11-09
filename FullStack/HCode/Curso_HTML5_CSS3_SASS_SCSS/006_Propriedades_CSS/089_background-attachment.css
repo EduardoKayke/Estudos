@@ -1,0 +1,40 @@
+/*
+background-attachment - VALORES
+
+Esta propriedade CSS define se uma imagem de plano de fundo será rolada com 
+o restante da página ou não.
+
+Valores - scroll, fixed, local, initial, inherit, unset.
+Valor Padrão - scroll
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.full-banner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("img/eduardo-perfil.jpg");
+    background-size: cover;
+}
+
+section.xps-detail {
+    height: 500px;
+    background-image: url("img/eduardo-perfil.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    overflow: scroll;
+}
+
+/*
+<body>
+    <div class="full-banner"></div>
+    <section class="xps-detail"></section>
+</body>
+*/
