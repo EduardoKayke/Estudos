@@ -1,0 +1,37 @@
+/*
+cursor - VALORES
+
+Esta propriedade CSS define oacor de fundo de um elemento.
+O tamanho do fundo de um elemento inclui seu tamanho total, preenchimento e 
+borda, mas não a área da margem.
+
+Valores - color, transparent, initial, inherit, unset.
+Valor Padrão - transparent
+Valor Herdado - não
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 30vw;
+    height: 30vh;
+    background-color: #fff;
+}
+
+/*
+<body>
+    <div></div>
+</body>
+*/
