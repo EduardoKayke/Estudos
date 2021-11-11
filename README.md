@@ -6,7 +6,7 @@
 <div align="left">
     
 ```js   
-/** Sou Desenvolvedor Front-End Jr. 
+/** Sou Desenvolvedor Front-End Jr e Game Developer. 
  *  Você pode me encontrar pelo Telegram, Linkedin e meu Site(Em construção). 
  */    
     
