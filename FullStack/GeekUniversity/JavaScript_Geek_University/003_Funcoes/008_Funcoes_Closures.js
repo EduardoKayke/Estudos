@@ -1,5 +1,5 @@
 /**
- * Funções Closures
+ * Funções Closures = Contexto Léxico de uma função.
  */
 
 let xuxa = `Global`; // Pode ser acessada globalmente no programa.
@@ -25,4 +25,14 @@ let variavelGlobal = `Variável Global`;
 
 function externa(){
     let variavelGlobal = `Variável Local`;
+
+    function interna(){
+        return variavelGlobal;
+    }
+
+    return interna;
 }
+
+let executa = externa();
+
+console.log(executa());
