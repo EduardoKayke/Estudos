@@ -7,8 +7,7 @@
  * constructor() = Função do JavaScript (Método), pode ter ou não parâmetro 
  * de entrada.
  * 
- * Em JavaScript tudo é público. Ou seja, podemos fazer acesso mesmo fora da 
- * classe.
+ * Em JavaScript tudo é público. Ou seja, podemos fazer acesso mesmo fora da classe.
  * 
  * Encapsulamento é fazer com que os atributos não sejam manipulados de fora 
  * da classe. Em JavaScript não tem esse conceito. Então usamos de outra 
