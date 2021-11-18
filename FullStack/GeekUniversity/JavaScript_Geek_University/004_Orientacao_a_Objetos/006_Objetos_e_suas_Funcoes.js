@@ -35,3 +35,46 @@ Object.entries(curso).forEach(([chave, valor]) => {
     console.log(`${chave}: ${valor}`);
 });
 
+// Para criar atributos que sejam apenas para leitura.
+Object.defineProperty(curso, `publicacao`, {
+    enumerable: true, // Visível.
+    writable: false, // Não podemos alterar o valor.
+    value: `18/11/2021`
+})
+
+console.log(curso);
+console.log(curso.publicacao); // 18/11/2021
+
+// Criando objeto que não pode ser modificado.
+Object.freeze(curso);
+
+curso.nome = `Teste de mudança`;
+
+console.log(curso.nome);// Programação em JavaScript. Não alterou.
+
+//Array de objetos.
+const usuarios = [
+    {nome: `Eduardo`, empresa: `Google`},
+    {nome: `Fernando`, empresa: `Netflix`},
+    {nome: `Lucia`, empresa: `Amazon`},
+]
+
+// Para ver em formato de tabela.
+console.table(usuarios);
+// ┌─────────┬────────────┬───────────┐
+// │ (index) │    nome    │  empresa  │
+// ├─────────┼────────────┼───────────┤
+// │    0    │ 'Eduardo'  │ 'Google'  │
+// │    1    │ 'Fernando' │ 'Netflix' │
+// │    2    │  'Lucia'   │ 'Amazon'  │
+// └─────────┴────────────┴───────────┘
+
+console.table(curso);
+// ┌────────────┬─────────────────────────────┐
+// │  (index)   │           Values            │
+// ├────────────┼─────────────────────────────┤
+// │    nome    │ 'Programação em JavaScript' │
+// │   horas    │             25              │
+// │   preco    │            27.99            │
+// │ publicacao │        '18/11/2021'         │
+// └────────────┴─────────────────────────────┘
