@@ -109,6 +109,10 @@ class Pessoa{
         //elemento por espaço.
         this._sobrenome = nomeCompleto.join(` `);
     }
+
+    imprimirDados(){
+        console.log(`${this.nome} ${this.sobrenome}`);
+    }
 }
 
 // Aqui entra a herança. Para deixar as classes menores e sem repetições.
@@ -162,3 +166,21 @@ console.log(c2.nomeCompleto);
 
 c1.nomeCompleto = `Xuxa Meneguel`;
 console.log(c1);
+console.log(`------------------------------------------------`);
+c2.imprimirDados();
+
+const programador = new Funcao(`Programador`, 4899.54)
+const suporte = new Funcao(`Suporte`, 2799.34)
+
+console.log(programador);
+console.log(suporte);
+
+const f1 = new Funcionario(`Eduardo`, `Kayke`, `eduardo@gmail.com`, `444.444.444-44`, programador, `3452323`)
+const f2 = new Funcionario(`Silvana`, `Oliveira`, `silvana@gmail.com`, `434.434.434-43`, suporte, `1231312`)
+
+console.log(f1);
+console.log(f2);
+
+console.log(f1.funcao.salario);
+
+f1.imprimirDados();
