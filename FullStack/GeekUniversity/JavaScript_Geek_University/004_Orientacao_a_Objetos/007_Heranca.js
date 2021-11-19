@@ -90,11 +90,30 @@ class Pessoa{
     set cpf(cpf){
         this._cpf = cpf;
     }
+
+    //Métodos extras.
+
+    get nomeCompleto(){
+        return this._nome + ` ` + this._sobrenome;
+    }
+
+    set nomeCompleto(nomeCompleto){
+        //Transforma a string em um array onde cada elemento do array
+        //será as partes da string separadas por espaço.
+        nomeCompleto = nomeCompleto.split(` `);
+
+        //Remove e retorna o elemento da posição e do array.
+        this._nome = nomeCompleto.shift();
+
+        //Junta os elementos do array em uma string, separando cada 
+        //elemento por espaço.
+        this._sobrenome = nomeCompleto.join(` `);
+    }
 }
 
 // Aqui entra a herança. Para deixar as classes menores e sem repetições.
 
-class Funcionario extends Pessoa(){
+class Funcionario extends Pessoa{
     constructor(nome, sobrenome, email, cpf, funcao, registro){
         super(nome, sobrenome, email, cpf);
         this._funcao = funcao;
@@ -118,7 +137,7 @@ class Funcionario extends Pessoa(){
     }
 }
 
-class Cliente extends Pessoa(){
+class Cliente extends Pessoa{
     constructor(nome, sobrenome, email, cpf, renda){
         super(nome, sobrenome, email, cpf);
         this._renda = renda;
@@ -133,3 +152,13 @@ class Cliente extends Pessoa(){
     }
 }
 
+const c1 = new Cliente(`Felicity`, `Jones`, `felicity@gmail.com`, `123.456.789-10`, 6789.44)
+const c2 = new Cliente(`Eduardo`, `Kayke`, `eduardo@gmail.com`, `444.444.444-44`, 8974.34)
+
+console.log(c1);
+console.log(c2);
+console.log(c1.nomeCompleto);
+console.log(c2.nomeCompleto);
+
+c1.nomeCompleto = `Xuxa Meneguel`;
+console.log(c1);
