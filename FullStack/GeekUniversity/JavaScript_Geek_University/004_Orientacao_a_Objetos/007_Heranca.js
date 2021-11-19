@@ -117,3 +117,19 @@ class Funcionario extends Pessoa(){
         this._registro = registro;
     }
 }
+
+class Cliente extends Pessoa(){
+    constructor(nome, sobrenome, email, cpf, renda){
+        super(nome, sobrenome, email, cpf);
+        this._renda = renda;
+    }
+
+    get renda(){
+        return this._renda;
+    }
+
+    set renda(renda){
+        this._renda = renda;
+    }
+}
+
