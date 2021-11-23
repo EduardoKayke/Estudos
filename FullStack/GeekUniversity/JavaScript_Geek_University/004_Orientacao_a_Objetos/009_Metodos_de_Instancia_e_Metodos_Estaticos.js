@@ -32,3 +32,8 @@ const fit = new Carro(`Fit`);
 // console.log(fit.marca);
 
 console.log(Carro.retornarMarca());
+
+// Object.defineProperty()
+
+console.log(Math.random()); // Método estático.
+console.log(Math.PI); // Método estático.
