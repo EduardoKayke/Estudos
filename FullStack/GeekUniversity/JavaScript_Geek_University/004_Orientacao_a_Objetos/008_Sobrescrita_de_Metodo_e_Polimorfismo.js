@@ -106,11 +106,16 @@ class Funcionario extends Pessoa{
     }
 
     get registro(){
-        return this._registro = registro;
+        return this._registro;
     }
 
     set registro(registro){
         this._registro = registro;
+    }
+    //Sobrescrita de método.
+    imprimirDados(){
+        super.imprimirDados();
+        console.log(`Registro: ${this.registro}. \nSalário: R$:${this.funcao.salario}`);
     }
 }
 
@@ -128,3 +133,18 @@ class Cliente extends Pessoa{
         this._renda = renda;
     }
 }
+
+const prog = new Funcao(`Programador`, 5987.44);
+const f1 = new Funcionario(`Paulo`, `fernandes`, `paulofernandes@gmail.com`, `234.345.456-34`, prog, `3453453`);
+
+const c1 = new Cliente(`Pedro`, `Silveira`, `pedro@gmail.com`, `234.345.567-09`, 45669.09);
+
+f1.imprimirDados(); //Pessoa
+c1.imprimirDados(); // Pessoa
+
+/**
+ * Sobrescrita de método - Overwriting.
+ * 
+ * Polimorfismo - Dois objetos do mesmo tipo tendo comportamentos 
+ * diferentes.
+*/

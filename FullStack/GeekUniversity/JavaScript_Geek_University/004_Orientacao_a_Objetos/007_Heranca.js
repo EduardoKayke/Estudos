@@ -133,7 +133,7 @@ class Funcionario extends Pessoa{
     }
 
     get registro(){
-        return this._registro = registro;
+        return this._registro;
     }
 
     set registro(registro){
