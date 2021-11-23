@@ -22,6 +22,9 @@ function Eduardo(Front End <= 1 year) {
     else if (Game Dev) {
         const StackGameDev = `${Godot}, ${GDScript}`;
     }
+    else if (Tools) {
+        const StackTools = `${Photoshop}, ${After Effects}, ${Premiere Pro}, ${Figma}`;
+    }
 };
 ```
 </div>
