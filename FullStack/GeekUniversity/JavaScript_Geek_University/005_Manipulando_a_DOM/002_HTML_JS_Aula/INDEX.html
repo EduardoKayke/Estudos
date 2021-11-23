@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta name="author" content="eduardokaykedasilva@gmail.com">
+        <meta name="description" content="Passe uma descrição do seu site.">
+        <meta name="keywords" content="Palavras chaves do seu site separadas por vírgula.">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="#">
+        <title>Eventos Inline</title>
+        <link rel="stylesheet" href="#">
+    </head>
+    <body onclick="mudarCor();" style="height: 100vh;">
+        <button onclick="mostrarAlerta();">Por favor, clique-me!</button>
+        <br><br>
+        <span onmouseover="mudarTexto(this);" class="info"><b>Atenção!</b> Não clique no botão acima!</span>
+        <br><br>
+        <input onkeyup="escreverTexto(this);">
+        <br><br>
+        <span id="texto">Texto</span>
+        <script src="js/script.js"></script>
+    </body>
+</html>
