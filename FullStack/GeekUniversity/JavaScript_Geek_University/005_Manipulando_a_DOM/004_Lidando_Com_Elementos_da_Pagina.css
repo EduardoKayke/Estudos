@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.classe-p{
+    background-color: #3f3f3f;
+    color: white;
+    margin-top: 10px;
+    height: auto;
+    width: 240px;
+    border: black 2px solid;
+    text-align: center;
+}
+
+#app {
+    max-height: 500px;
+    min-height: 500px;
+}
