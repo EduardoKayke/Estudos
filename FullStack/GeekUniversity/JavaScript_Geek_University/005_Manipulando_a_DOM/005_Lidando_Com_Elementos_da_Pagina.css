@@ -11,3 +11,7 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
+.btn {
+    width: 40px;
+}
