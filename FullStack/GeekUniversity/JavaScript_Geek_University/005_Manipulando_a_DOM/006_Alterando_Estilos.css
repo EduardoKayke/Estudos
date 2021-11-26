@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    height: 30px;
+    width: 70px;
+    margin: 7px;
+    border: black solid 2px;
+    box-shadow: 0 3px 10px 2px fuchsia;
+}
+
+.btn:hover {
+    box-shadow: 0 5px 10px 4px black;
+    background-color: white;
+    color: black;
+    width: 70px;
+    height: 34px;
+}
+
+.red {
+    background-color: red;
+    font-weight: bold;
+    color: white;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.darkred {
+    background-color: darkred;
+    font-weight: bold;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+}
+
+.orange {
+    background-color: orange;
+    font-weight: bold;
+    color: white;
+}
