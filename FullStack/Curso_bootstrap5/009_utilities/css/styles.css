@@ -1,0 +1,20 @@
+body {
+  padding-bottom: 1000px;
+}
+
+.col-12 {
+  height: 50px;
+}
+
+.altura {
+  height: 300px;
+}
+
+.box {
+  border: 1px solid red;
+}
+
+.box-com-wrap {
+  width: 50px;
+  border: 1px solid red;
+}
