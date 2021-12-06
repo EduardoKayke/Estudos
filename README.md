@@ -14,10 +14,10 @@ function Eduardo(Programador <= 1 year) {
     const Programmer = "Front-end, Mobile e Game Developer";
     
     if (Front End) {
-        const Stack = `${HTML}, ${CSS}, ${JavaScript}`;
+        const StackFront = `${HTML}, ${CSS}, ${JavaScript}`;
     }
-    else if (Framework) {
-        const StackFramework = `${Bootstrap}`;
+    else if (Framework and Library) {
+        const StackFrameLib = `${Bootstrap}`;
     }
     else if (Game Dev) {
         const StackGameDev = `${Godot}, ${GDScript}`;
