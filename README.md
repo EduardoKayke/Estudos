@@ -16,7 +16,7 @@ function Eduardo(Programador <= 1 year) {
     if (Front End) {
         const StackFront = `${HTML}, ${CSS}, ${JavaScript}`;
     }
-    else if (Framework and Library) {
+    else if (Framework && Library) {
         const StackFrameLib = `${Bootstrap}`;
     }
     else if (Game Dev) {
