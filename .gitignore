@@ -1,3 +1,7 @@
-/node_modules
-/package.json
-/yarn.lock
+node_modules
+package.json
+yarn.lock
+.babelrc
+bundle.js
+index.html
+main.js
