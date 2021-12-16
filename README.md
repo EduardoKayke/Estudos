@@ -11,7 +11,7 @@
  */    
     
 function Eduardo(Programador <= 1 year) {
-    const Programmer = "Front-end, Mobile e Game Developer";
+    const Programmer = "Front-end";
     
     if (Front End) {
         const StackFront = `${HTML}, ${CSS}, ${JavaScript}`;
@@ -20,7 +20,10 @@ function Eduardo(Programador <= 1 year) {
         const StackFrameLib = `${Bootstrap}`;
     }
     else if (Tools) {
-        const StackTools = `${Photoshop}, ${After Effects}, ${Premiere Pro}, ${Figma}`;
+        const StackTools = `${Visual Studio Code}, ${Git}, ${Babel}`;
+    }
+    else if (VisualTools) {
+        const StackVisualTools = `${Photoshop}, ${After Effects}, ${Premiere Pro}, ${Figma}`;
     }
 };
 ```
