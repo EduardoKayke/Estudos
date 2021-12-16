@@ -20,7 +20,7 @@ function Eduardo(Programador <= 1 year) {
         const StackFrameLib = `${Bootstrap}`;
     }
     else if (Tools) {
-        const StackTools = `${Visual Studio Code}, ${Git}`;
+        const StackTools = `${Visual Studio Code}, ${Git}, ${Babel}`;
     }
     else if (VisualTools) {
         const StackVisualTools = `${Photoshop}, ${After Effects}, ${Premiere Pro}, ${Figma}`;
