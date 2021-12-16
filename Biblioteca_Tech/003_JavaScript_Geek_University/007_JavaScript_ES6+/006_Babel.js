@@ -5,7 +5,7 @@
  * Babel = Reescreve o seu código para que qualquer avegador
  * entenda.
  * 
- * Comando no terminal
+ * Comandos no terminal.
  * 
  * yarn init (Iniciar o yarn)
  * 
