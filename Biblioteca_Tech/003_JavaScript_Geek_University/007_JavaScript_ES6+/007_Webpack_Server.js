@@ -1,7 +1,7 @@
 /** Conhecendo o Webpack Server
  * 
  * Comandos no terminal.
- * yarn add webpack webpack-cli -D (Dois módulos)
+ * yarn add webpack webpack-cli@3 -D (Dois módulos)
  * Precisamos fazer uma configuração pro Webpack.
 */
 
