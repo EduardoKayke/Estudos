@@ -16,4 +16,10 @@ function exibirData2() {
     console.log(`${d2}/${m2}/${a2}`);
 }
 
-exibirData2();
+// Outro exemplo.
+
+function exibirData3(d, m, a) {
+    console.log(`${d}/${m}/${a}`);
+}
+
+exibirData3(2, 12, 2021);
