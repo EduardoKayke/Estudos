@@ -60,6 +60,3 @@ function boletim(nota1, nota2, nota3) {
 }
 
 console.log(boletim(3, 8, 7));
-
-// Exemplo do Professor.
-
