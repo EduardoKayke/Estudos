@@ -23,7 +23,7 @@ function Eduardo(Programador <= 1 year) {
         const StackTools = `${Visual Studio Code}, ${Git}, ${WordPress}`;
     }
     else if (VisualTools) {
-        const StackVisualTools = `${Photoshop}, ${After Effects}, ${Premiere Pro}, ${Figma}`;
+        const StackVisualTools = `${Photoshop}, ${After Effects}, ${Premiere Pro}, ${Figma}, ${Canva}`;
     }
 };
 ```
