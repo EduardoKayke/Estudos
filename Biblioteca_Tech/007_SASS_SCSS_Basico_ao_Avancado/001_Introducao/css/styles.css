@@ -1,3 +1,8 @@
+@charset "UTF-8";
+/*Basta escrever uma dessas e o sass se inicia*/
+/*sass sass/styles.sass:css/styles.css - Atualizar*/
+/*sass --watch sass/styles.sass:css/styles.css Automático*/
+/*para parar o automático é ctrl + C no terminal*/
 body {
   background-color: #ccc;
   width: 100%;
@@ -10,6 +15,7 @@ body {
 .container h1 {
   color: #000;
   text-align: center;
+  background-color: red;
 }
 
 h1 {
