@@ -6,18 +6,18 @@
 <div align="left">
     
 ```js   
-/** Sou Desenvolvedor Front-end. 
+/** Sou Desenvolvedor Full Stack. 
  *  Você pode me encontrar pelo Telegram, Linkedin e meu Site(Em construção). 
  */    
     
 function Eduardo(Programador <= 1 year) {
-    const Programmer = "Front-end";
+    const Programmer = "Full Stack";
     
-    if (Front End) {
-        const StackFront = `${HTML}, ${CSS, SASS, SCSS}, ${JavaScript}`;
+    if (Full Stack) {
+        const FullStack = `${HTML}, ${CSS, SASS, SCSS}, ${JavaScript}, ${Node.js}`;
     }
     else if (Framework && Library) {
-        const StackFrameLib = `${Bootstrap}`;
+        const StackFrameLib = `${Bootstrap}, ${Express.js}`;
     }
     else if (Tools) {
         const StackTools = `${Visual Studio Code}, ${Git}, ${WordPress}`;
