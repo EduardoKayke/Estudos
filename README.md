@@ -6,24 +6,24 @@
 <div align="left">
     
 ```js   
-/** Sou Desenvolvedor Full Stack. 
- *  Você pode me encontrar pelo Telegram, Linkedin e meu Site(Em construção). 
+/** Sou Desenvolvedor Web Full Stack. 
+ *  Você pode me encontrar pelo Telegram, Linkedin e meu Site. 
  */    
     
 function Eduardo(Programador <= 1 year) {
     const Programmer = "Full Stack";
     
     if (Full Stack) {
-        const FullStack = `${HTML}, ${CSS, SASS, SCSS}, ${JavaScript}, ${Node.js}`;
+        const FullStack = `${HTML}, ${CSS, SASS, SCSS}, ${JavaScript}, ${Node.js}, ${MySQL}`;
     }
     else if (Framework && Library) {
         const StackFrameLib = `${Bootstrap}, ${Express.js}`;
     }
     else if (Tools) {
-        const StackTools = `${Visual Studio Code}, ${Git}, ${WordPress}`;
+        const StackTools = `${Git}, ${WordPress}, ${Visual Studio Code}`;
     }
     else if (VisualTools) {
-        const StackVisualTools = `${Photoshop}, ${After Effects}, ${Premiere Pro}, ${Figma}, ${Canva}`;
+        const StackVisualTools = `${Photoshop}, ${Premiere Pro}, ${After Effects}, ${Figma}, ${Adobe XD}, ${Canva}`;
     }
 };
 ```
