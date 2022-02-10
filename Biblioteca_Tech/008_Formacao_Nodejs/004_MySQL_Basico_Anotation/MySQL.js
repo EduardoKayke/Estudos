@@ -68,20 +68,52 @@
 /**
  * AULA 2 - INSERT, SELECT E WHERE - Curso Node.js
  * 
+ * COMANDO INSERT - Para inserir dados. 
+ * Veja no teste.sql aula 2
  * 
+ * Depois copie e jogue no terminal para inserir os dados.
  * 
+ * Agora vamos ver por dentro:
+ * Usamos o comando SELECT -> esse comando lista os dados.
+ * Se você quiser listar TODOS os dados use * 
  * 
+ * Comando:
+ * SELECT * FROM usuarios; 
  * 
+ * Vamos pegar um usuario especifico. Usando WHERE
+ * CONSULTA NO BANCO DE DADOS.
  * 
+ * Comando no terminal:
+ * SELECT * FROM usuarios WHERE idade = 12;
+ * SELECT * FROM usuarios WHERE idade >= 30;
+ * SELECT * FROM usuarios WHERE nome = "Lucas Pererira Silva";
+*/
+
+
+
+
+/**
+ * AULA 3 - DELETE - Curso Node.js
  * 
+ * COMANDO DELETE - Para DELETAR dados. 
+ *
+ * -- Deleta toda a tabela.
+ * DELETE FROM usuarios;
  * 
+ * -- Deleta algo específico.
+ * DELETE FROM usuarios WHERE nome = "Eduardo Kayke";
+*/
+
+
+
+
+/**
+ * AULA 4 - UPDATE - Curso Node.js
  * 
+ * COMANDO UPDATE - Para mudar os dados. 
+ *
+ * Nunca SET um UPDATE sem o WHERE, NUNCA.
  * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
+ * COMANDO:
+ * UPDATE usuarios SET nome = "Lucas Pereira Silva" WHERE nome = "Lucas Pererira Silva";
 */
