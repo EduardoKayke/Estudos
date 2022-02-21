@@ -1,5 +1,5 @@
 <div align="center"> 
-<a href="https://web.telegram.org/z/#-1582796052" target='_blank'><img align="center" src="Biblioteca_Tech/Readme_Images/telegram.png" target='_blank' alt="telegram" height="70" width="70" /></a> <a href="https://linkedin.com/in/eduardokaykedasilva" target="blank"><img align="center" src="Biblioteca_Tech/Readme_Images/linkedin.png" alt="linkedin" height="90" width="90" /></a> <a href="https://desenvolvedorfreelancer.com/" target="blank"><img align="center" src="Biblioteca_Tech/Readme_Images/sitepessoal.png" alt="site" height="70" width="70" /></a><br><br>
+<a href="https://web.telegram.org/z/#-1582796052" target='_blank'><img align="center" src="Biblioteca_Tech/Readme_Images/telegram.png" target='_blank' alt="telegram" height="70" width="70" /></a> <a href="https://linkedin.com/in/eduardokaykedasilva" target="blank"><img align="center" src="Biblioteca_Tech/Readme_Images/linkedin.png" alt="linkedin" height="90" width="90" /></a> <a href="https://www.cineagenda.com.br" target="blank"><img align="center" src="Biblioteca_Tech/Readme_Images/sitepessoal.png" alt="site" height="70" width="70" /></a><br><br>
 
 </div>
 
