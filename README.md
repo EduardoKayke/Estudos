@@ -33,5 +33,5 @@ function Eduardo(Programador <= 1 year) {
   <img src="http://github-readme-streak-stats.herokuapp.com?user=EduardoKayke&theme=dracula" alt="EduardoKayke" width="410" />
 </p>
 
-<p><a href="https://www.buymeacoffee.com/EduardoKayke"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="EduardoKayke" /></a></a></p>
+<p align="center"><a href="https://www.buymeacoffee.com/EduardoKayke"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="EduardoKayke" /></a></a></p>
  
