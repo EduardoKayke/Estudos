@@ -30,7 +30,7 @@ function Eduardo(Programador <= 1 year) {
 </div>
 
 <p align="center">
-<a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="Eduardo Kayke Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=EduardoKayke&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" width="810"/></a>
+  <img src="http://github-readme-streak-stats.herokuapp.com?user=EduardoKayke&theme=dracula" alt="EduardoKayke" width="410" />
 </p>
 
 <p><a href="https://www.buymeacoffee.com/EduardoKayke"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="EduardoKayke" /></a></a></p>
