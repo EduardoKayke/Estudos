@@ -102,6 +102,9 @@
  * 
  * -- Deleta algo específico.
  * DELETE FROM usuarios WHERE nome = "Eduardo Kayke";
+ * 
+ * Para deletar um banco de dados use:
+ * DROP DATABASE + nome do banco de dados.
 */
 
 
