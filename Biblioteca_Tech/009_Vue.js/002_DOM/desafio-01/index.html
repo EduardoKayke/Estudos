@@ -1,0 +1,38 @@
+<!-- <script src="https://unpkg.com/vue" defer></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js" defer></script> -->
+
+<!DOCTYPE html>
+<html lang='pt-BR'>
+    <head>
+        <meta http-equiv='Content-type' content='text/html; charset=UTF-8'/>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>Vue</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js" defer></script>
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <div id="desafio">
+            <!-- 1) Preencha a tag <p> abaixo com o seu Nome e Idade - usando Interpolação -->
+            <p>Usando VueJS - {{ nome }} ({{ idade }})</p>
+                
+            <!-- 2) Exiba sua idade multiplicada por 3 -->
+            <p>{{ idade * 3 }}</p>
+            
+            <!-- 3) Chame uma função para exibir um número randomico entre 0 and 1 (Math.random()) -->
+            <p>{{ Math.random().toPrecision(1) }} - Número aleatório.</p>
+            <p>ou</p>
+            <p>{{ math() }} - Outra forma de número aleatório.</p>
+            
+            <!-- 4) Procure uma imagem no google e exiba na tag img fazendo o binding no atributo "src" -->
+            <div>
+                <img v-bind:src="imagem" height="200" alt="Imagem da Cod3r">
+            </div>
+            
+            <!-- 5) Inicialize o input com o seu nome (use o atributo "value") -->
+            <div>
+                <input type="text" v-bind:value="nome">
+            </div>
+        </div>
+    </body>
+</html>
