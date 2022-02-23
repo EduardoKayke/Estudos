@@ -7,5 +7,5 @@ new Vue({
         somar(){
             this.contador++
         },
-    }
+    },
 });
