@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+    <head>
+        <meta http-equiv='Content-type' content='text/html; charset=UTF-8'/>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>Vue.js</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js" defer></script>
+        <script src='010_Eventos_de_teclado.js' defer></script>
+    </head>
+    <body>
+        <div id="app">
+            <p>{{ contador }}</p>
+            <!--v-on escuta os eventos, exemplo o click-->
+            <button v-on:click="somar(5, $event)">Somar + 1</button>
+            <!-- Obtendo dados do evento -->
+            <p v-on:mousemove="atualizarXY">
+                Mouse : {{ x }} e {{ y }}
+                <span v-on:mousemove.stop="">PARAR AQUI!!</span>
+            </p>
+            <!-- prevent para o comportamento padrão-->
+            <a v-on:click.prevent="" href="http://google.com" target="_blank">Google</a>
+            <hr>
+            <!-- Podemos escolher uma tecla. podemos por mais de uma tecla-->
+            <input type="text" v-on:keyup.enter="exibirAlerta">
+        </div>
+    </body>
+</html>
