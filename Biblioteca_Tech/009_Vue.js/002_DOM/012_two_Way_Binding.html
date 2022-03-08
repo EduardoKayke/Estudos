@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+    <head>
+        <meta http-equiv='Content-type' content='text/html; charset=UTF-8'/>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>Padrão</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js" defer></script>
+        <script src="012_two_Way_Binding.js" defer></script>
+    </head>
+    <body>
+        <div id="app">
+            <p>{{ titulo }}</p>
+            <!-- Primeiro exemplo-->
+            <!-- <input type="text" v-bind:value="titulo" v-on:input="titulo = $event.target.value"> -->
+            <!-- Forma correta e mais fácil-->
+            <input type="text" v-model="titulo">
+        </div>
+    </body>
+</html>
