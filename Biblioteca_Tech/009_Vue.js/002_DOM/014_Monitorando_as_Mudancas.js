@@ -6,9 +6,15 @@ new Vue({
     },
     computed: {
         resultado(){
-            console.log('método computado resultado chamado...');
             return this.contador >= 5 ?
             "Maior ou igual a 5" : "Menor que 5"
+        },
+    },
+    watch: {
+        contador(novo, antigo){
+            setTimeout((() => {
+                this.contador = 0;
+            }), 2000)
         },
     },
     methods: {
