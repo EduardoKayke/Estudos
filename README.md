@@ -4,9 +4,9 @@
 # Sou Desenvolvedor Web Full Stack. <br>
 Você pode me encontrar pelo Telegram, Linkedin e os meus Sites. 
 
-<a href="https://web.telegram.org/z/#-1582796052"><img align="center" src="images/telegram.png" target='_blank' alt="Telegram Logo" height="70" width="70" /></a>
-<a href="https://linkedin.com/in/eduardokaykedasilva"><img align="center" src="images/linkedin.png" alt="Linkedin Logo" height="90" width="90" /></a>
-<a href="https://linktr.ee/EduardoKayke"><img align="center" src="images/sitepessoal.png" alt="Sites" height="70" width="70" /></a><br><br>
+<a href="https://web.telegram.org/z/#-1582796052"><img align="center" src="Biblioteca_Tech/Readme_Images/telegram.png" target='_blank' alt="Telegram Logo" height="70" width="70" /></a>
+<a href="https://linkedin.com/in/eduardokaykedasilva"><img align="center" src="Biblioteca_Tech/Readme_Images/linkedin.png" alt="Linkedin Logo" height="90" width="90" /></a>
+<a href="https://linktr.ee/EduardoKayke"><img align="center" src="Biblioteca_Tech/Readme_Images/sitepessoal.png" alt="Sites" height="70" width="70" /></a><br><br>
     
 </div>
 
