@@ -27,7 +27,7 @@ function Eduardo(Programador <= 1 year) {
     }
     else if (VisualTools) {
         const StackVisualTools = `${Photoshop}, ${Premiere Pro}, ${After Effects}, ${Figma}, ${Adobe XD}, 
-        ${Canva}`;
+                                    ${Canva}`;
     }
 };
 ```
