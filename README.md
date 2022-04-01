@@ -1,7 +1,7 @@
 <h2 align="center">Olá! Eu sou o Eduardo.</h2>
 <div align="center"> 
 
-# Sou Desenvolvedor Web Full Stack. <br>
+# Sou Desenvolvedor Web Front End. <br>
 Você pode me encontrar pelo Telegram, Linkedin e os meus Sites. 
 
 <a href="https://web.telegram.org/z/#-1582796052"><img align="center" src="Biblioteca_Tech/Readme_Images/telegram.png" target='_blank' alt="Telegram Logo" height="70" width="70" /></a>
@@ -14,20 +14,16 @@ Você pode me encontrar pelo Telegram, Linkedin e os meus Sites.
     
 ```js       
 function Eduardo(Programador <= 1 year) {
-    const Programmer = "Full Stack";
+    const Programmer = "Front End";
     
     if (Full Stack) {
-        const FullStack = `${HTML}, ${CSS, SASS, SCSS}, ${JavaScript}, ${Node.js}, ${MySQL}`;
+        const FrontEnd = `${HTML}, ${CSS}, ${JavaScript}`;
     }
     else if (Framework && Library && Others) {
-        const StackFrameLib = `${Bootstrap}, ${Vue.js}, ${Express.js}, ${EJS}, ${Sequelize.js}`;
+        const StackFrameLib = `${Bootstrap}, ${React.js}`;
     }
     else if (Tools) {
-        const StackTools = `${Git}, ${WordPress}, ${Visual Studio Code}`;
-    }
-    else if (VisualTools) {
-        const StackVisualTools = `${Photoshop}, ${Premiere Pro}, ${After Effects},
-                                 ${Figma}, ${Adobe XD}, ${Canva}`;
+        const StackTools = `${Git}, ${Visual Studio Code}`;
     }
 };
 ```
