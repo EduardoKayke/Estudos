@@ -1,5 +1,0 @@
-{
-    "code-runner.executerMap": {
-        "javascript": "node --experimental-modules"
-    }
-}
