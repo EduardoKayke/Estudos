@@ -1,10 +1,10 @@
 // Tipos explícitos
 let minhaIdade // Nesse caso não temos um Number ou string, pois a variável foi criada sem dado.
 minhaIdade = 27
-console.log(typeof minhaIdade); // Number
+console.log(typeof minhaIdade) // Number
 
 minhaIdade = '27'
-console.log(typeof minhaIdade); // String
+console.log(typeof minhaIdade) // String
 
 // Se colocarmos o tipo de dado que é a variável, os exemplos acima nãoa contecem.
 
