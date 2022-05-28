@@ -1,6 +1,7 @@
-node_modules
-package-lock.json
-package.json
-tsconfig.json
-index.html
 001_Usando_Tipos/000_Basico.js
+node_modules
+index.html
+*.json
+# package-lock.json
+# package.json
+# tsconfig.json
