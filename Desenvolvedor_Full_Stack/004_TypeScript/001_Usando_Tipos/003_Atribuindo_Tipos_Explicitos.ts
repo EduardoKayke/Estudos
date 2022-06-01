@@ -6,7 +6,7 @@ console.log(typeof minhaIdade) // Number
 minhaIdade = '27'
 console.log(typeof minhaIdade) // String
 
-// Se colocarmos o tipo de dado que é a variável, os exemplos acima nãoa contecem.
+// Se colocarmos o tipo de dado que é a variável, os exemplos acima não acontecem.
 
 let minhaIdadeTipo: any
 let outroExemplo: any = 27

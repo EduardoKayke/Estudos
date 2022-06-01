@@ -1,7 +1,7 @@
 // Numbers
 let idade = 27
 // idade = 'Ana' 
-// Não podemos mudar, pois já foi atribuido um tipo númerico pra variável
+// Não podemos mudar, pois já foi atribuido um tipo numérico pra variável
 idade = 27.5
 console.log(idade)
 
