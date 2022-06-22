@@ -50,7 +50,11 @@
     ```
 
 #### Aula - Reutilizar containers
-- Nos permite acessar uma lista de comandos para os containers.
+- Nos permite listar os containers.
     ```docker
-    docker container run --help
+    docker container ls -a
+    ```
+- Nos permite acessar um container que já foi criado. O -ai seria equivalente a -it. 
+    ```docker
+    docker container start -ai exemplo
     ```
