@@ -34,3 +34,23 @@
     ```docker
     Exit
     ```
+
+#### Aula - Containers devem ter nomes únicos
+- Nos permite acessar uma lista de comandos para os containers.
+    ```docker
+    docker container run --help
+    ```
+- Nos permite nomear os containers.
+    ```docker
+    docker container run --name exemplo
+    ```
+- Na aula o código acima foi realizado da seguinte forma:
+    ```docker
+    docker container run --name mydeb -it debian bash 
+    ```
+
+#### Aula - Reutilizar containers
+- Nos permite acessar uma lista de comandos para os containers.
+    ```docker
+    docker container run --help
+    ```
