@@ -81,4 +81,9 @@ Containers Docker empacotam componentes de software em um sistema de arquivos co
 
 #### Aula - Mapear diretórios para o container
 
-- O professor vai utilizar um trecho de comando chamado "pwd". Esse comando retorna o caminho atual da pasta onde o terminal está localizado. Porém, esse "pwd" não irá funcionar em todos os terminais ou sistemas operacionais. Caso não funcione será necessário utilizar o comando absoluto da pasta em questão. Ou seja, algo como "c/users/SeuNome/docker", variando com a localização da pasta em questão.
+- O "pwd". Esse comando retorna o caminho atual da pasta onde o terminal está localizado. Porém, esse "pwd" não irá funcionar em todos os terminais ou sistemas operacionais. Caso não funcione será necessário utilizar o comando absoluto da pasta em questão. Ou seja, algo como "c/users/SeuNome/docker", variando com a localização da pasta em questão.
+
+- O -v é o volume o /html depois do $(pwd) é porque o pwd é a pasta atual em que se encontra o terminal, mas queremos iniciar o conteúdo da pasta html, por isso colocamos a pasta no comando. 
+    ```docker
+    docker container run -p 8080:80 -v $(pwd)/html:/usr/share/nginx/html nginx
+    ```
