@@ -87,3 +87,9 @@ Containers Docker empacotam componentes de software em um sistema de arquivos co
     ```docker
     docker container run -p 8080:80 -v $(pwd)/html:/usr/share/nginx/html nginx
     ```
+
+#### Aula - Rodar um servidor web em background
+- bla
+    ```docker
+    docker container run -p 8080:80 -v $(pwd)/html:/usr/share/nginx/html nginx
+    ```
