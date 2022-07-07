@@ -1,6 +1,6 @@
 // Vamos importar
-const moduloA = require('./moduloA')
-const moduloB = require('./moduloB')
+const moduloA = require('./001_moduloA')
+const moduloB = require('./002_moduloB')
 
 console.log(moduloA.ola); 
 // Fala Pessoa
