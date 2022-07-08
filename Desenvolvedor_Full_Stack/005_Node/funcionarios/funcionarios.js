@@ -17,12 +17,12 @@ axios.get(url).then(response => {
     // console.log(funcionarios);
 
     // Achar a mulher chinesa com menor salário
-    const funcionario = funcionarios
+    const chinesa = funcionarios
         .filter(chineses)
         .filter(mulheres)
         .reduce(menorSalario)
     
-    console.log(funcionario);
+    console.log(chinesa);
     //{ id: 443,
     //    nome: 'Shela',
     //    sobrenome: 'Nowell',
