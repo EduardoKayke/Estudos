@@ -14,6 +14,20 @@
         <div class="terceiro ultimo">.terceiro .ultimo</div>
         <script>
             document.getElementById('primeiro').classList.add('destaque')
+
+            const divs = document.getElementsByTagName('div')
+            //Transformando divs em array e removendo a classe destaque
+            Array.from(divs).forEach(e => e.classList.remove('destaque'))
+
+            // Transformando em array e colocando a classe destaque
+            const divsArray = [...divs]
+            divsArray.forEach(e => e.classList.add('destaque'))
+
+            // Retirando uma classe com for
+            const ultimosElementos = document.getElementsByClassName('ultimo')
+            for(let e of ultimosElementos){
+                e.classList.remove('destaque')
+            }
         </script>
     </body>
 </html>
